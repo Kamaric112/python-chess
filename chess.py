@@ -8,7 +8,7 @@ def init_chess(screen, width, height):
     WHITE = (255, 255, 255)
     BLACK = (128, 128, 128)
 
-
+sdfsdf
     # Calculate square size based on screen dimensions
     SQUARE_SIZE = min(width, height) // 8
 
