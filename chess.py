@@ -3,12 +3,9 @@ import sys
 import pygame
 
 def init_chess(screen, width, height):
-    # Initialize your chess game here
     # Chess board colors
     WHITE = (255, 255, 255)
     BLACK = (128, 128, 128)
-
-
     # Calculate square size based on screen dimensions
     SQUARE_SIZE = min(width, height) // 8
 
