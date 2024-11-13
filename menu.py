@@ -1,57 +1,66 @@
 import pygame
 import sys
 
-from chess import init_chess
 
+class Menu:
+    def __init__(self, screen, width, height):
+        self.screen = screen
+        self.width = width
+        self.height = height
+        self.color = (255, 255, 255)
+        self.color_light = (170, 170, 170)
+        self.color_dark = (100, 100, 100)
+        self.smallfont = pygame.font.SysFont('Corbel', 35)
+        self.titlefont = pygame.font.SysFont('Corbel', 60)
 
-def init_menu(screen, width, height):
-    color = (255, 255, 255)
-    color_light = (170, 170, 170)
-    color_dark = (100, 100, 100)
-    smallfont = pygame.font.SysFont('Corbel', 35)
-    titlefont = pygame.font.SysFont('Corbel',60)
+        # Text renders
+        self.title_text = self.titlefont.render('CHESS GAME', True, self.color)
+        self.start_text = self.smallfont.render('start', True, self.color)
+        self.quit_text = self.smallfont.render('quit', True, self.color)
 
-    # Text renders
-    title_text = titlefont.render('CHESS GAME', True, color)
-    start_text = smallfont.render('start', True, color)
-    quit_text = smallfont.render('quit', True, color)
+        # Button rectangles
+        self.start_button = pygame.Rect(width / 2 - 60, height / 2 - 20, 120, 40)
+        self.quit_button = pygame.Rect(width / 2 - 60, height / 2 + 50, 120, 40)
 
-    # Button rectangles
-    start_button = pygame.Rect(width / 2 - 60, height / 2 - 20, 120, 40)
-    quit_button = pygame.Rect(width / 2 - 60, height / 2 + 50, 120, 40)
-    while True:
-        screen.fill((60, 25, 60))  # Dark purple background
-        mouse = pygame.mouse.get_pos()
-        # draw title text
-        title_rect = title_text.get_rect(center=(width / 2, height / 3))
-        screen.blit(title_text, title_rect)
+    def run(self):
+        while True:
+            self.screen.fill((60, 25, 60))  # Dark purple background
+            mouse = pygame.mouse.get_pos()
 
-        for ev in pygame.event.get():
-            if ev.type == pygame.QUIT:
-                pygame.quit()
-                sys.exit()
+            # draw title text
+            title_rect = self.title_text.get_rect(center=(self.width / 2, self.height / 3))
+            self.screen.blit(self.title_text, title_rect)
 
-            if ev.type == pygame.MOUSEBUTTONDOWN:
-                if start_button.collidepoint(mouse):
-                    init_chess(screen, width, height)
-                if quit_button.collidepoint(mouse):
+            for ev in pygame.event.get():
+                if ev.type == pygame.QUIT:
                     pygame.quit()
                     sys.exit()
 
+                if ev.type == pygame.MOUSEBUTTONDOWN:
+                    if self.start_button.collidepoint(mouse):
+                        return "start"
+                    if self.quit_button.collidepoint(mouse):
+                        pygame.quit()
+                        sys.exit()
+
+            # Button hover effects
+            self._handle_button_hover(mouse)
+
+            pygame.display.update()
+
+    def _handle_button_hover(self, mouse):
         # Start button hover effect
-        if start_button.collidepoint(mouse):
-            pygame.draw.rect(screen, color_light, start_button)
+        if self.start_button.collidepoint(mouse):
+            pygame.draw.rect(self.screen, self.color_light, self.start_button)
         else:
-            pygame.draw.rect(screen, color_dark, start_button)
+            pygame.draw.rect(self.screen, self.color_dark, self.start_button)
 
         # Quit button hover effect
-        if quit_button.collidepoint(mouse):
-            pygame.draw.rect(screen, color_light, quit_button)
+        if self.quit_button.collidepoint(mouse):
+            pygame.draw.rect(self.screen, self.color_light, self.quit_button)
         else:
-            pygame.draw.rect(screen, color_dark, quit_button)
+            pygame.draw.rect(self.screen, self.color_dark, self.quit_button)
 
         # Superimpose text on buttons
-        screen.blit(start_text, (start_button.x + 20, start_button.y + 5))
-        screen.blit(quit_text, (quit_button.x + 30, quit_button.y + 5))
-
-        pygame.display.update()
+        self.screen.blit(self.start_text, (self.start_button.x + 20, self.start_button.y + 5))
+        self.screen.blit(self.quit_text, (self.quit_button.x + 30, self.quit_button.y + 5))
