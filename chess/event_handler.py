@@ -1,6 +1,8 @@
 import pygame
 import sys
 
+from chess import renderer
+
 
 class ChessEventHandler:
     def __init__(self, game, renderer):
@@ -14,13 +16,19 @@ class ChessEventHandler:
                 sys.exit()
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if self.renderer.game_state == "playing":
-                    self._handle_mouse_click()
+                    result = self._handle_mouse_click()
+                    if result == "menu":
+                        return result
             elif event.type == pygame.KEYDOWN and self.renderer.game_state == "victory":
                 if event.key == pygame.K_RETURN:
                     return "menu"
 
     def _handle_mouse_click(self):
         mouse_pos = pygame.mouse.get_pos()
+        # add back button handling
+        if self.renderer.back_button_rect.collidepoint(mouse_pos):
+            return "menu"
+
         clicked_row = (mouse_pos[1] - self.renderer.start_y) // self.renderer.SQUARE_SIZE
         clicked_col = (mouse_pos[0] - self.renderer.start_x) // self.renderer.SQUARE_SIZE
 

@@ -17,6 +17,9 @@ class ChessRenderer:
         pygame.font.init()
         self.font = pygame.font.Font(None, 36)
         self.game_state = "playing"
+        self.BACK_BUTTON_COLOR = (34, 139, 34)
+        self.back_button_rect = pygame.Rect(20, 20, 100, 40)
+
 
     def load_pieces(self):
         pieces = {}
@@ -37,6 +40,7 @@ class ChessRenderer:
             self.screen.fill((60, 25, 60))
             self._draw_squares(game)
             self._draw_turn_indicator(game.board.current_turn)
+            self._draw_back_button()
             pygame.display.flip()
         elif self.game_state == "victory":
             self.show_victory_screen(game.board.is_checkmate())
@@ -70,6 +74,14 @@ class ChessRenderer:
         box_rect.inflate_ip(20 * 2, 20)
         pygame.draw.rect(self.screen, (34, 139, 34), box_rect, border_radius=10)
         self.screen.blit(text_surface, text_rect)
+
+    def _draw_back_button(self):
+        pygame.draw.rect(self.screen, self.BACK_BUTTON_COLOR, self.back_button_rect, border_radius=10)
+        back_text = self.font.render("Back", True, self.WHITE)
+        text_rect = back_text.get_rect(center=self.back_button_rect.center)
+        self.screen.blit(back_text, text_rect)
+
+
 
     def show_victory_screen(self, winner):
         victory_font = pygame.font.Font(None, 74)
