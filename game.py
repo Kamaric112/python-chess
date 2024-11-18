@@ -1,6 +1,8 @@
 import pygame
+
+from chess.chess_board import ChessBoard
+
 from menu import Menu
-from chess import ChessBoard
 
 pygame.init()
 res = (720, 720)

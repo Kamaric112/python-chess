@@ -28,7 +28,7 @@ class Board:
 
         if self.is_valid_move(start, end):
             piece = self.squares[start_row][start_col]
-            if piece.color == self.current_turn:  # Add this check
+            if piece.color == self.current_turn:
                 self.squares[end_row][end_col] = piece
                 self.squares[start_row][start_col] = None
                 piece.position = end
@@ -48,7 +48,7 @@ class Board:
         return end in valid_moves
 
     def is_checkmate(self):
-        # TODO maybe optimze this
+        # TODO maybe improve this
         white_king_exists = False
         black_king_exists = False
 
