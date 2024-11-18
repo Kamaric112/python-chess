@@ -4,6 +4,7 @@ from pieces.pawn import Pawn, Rook, Knight, Bishop, Queen, King
 class Board:
     def __init__(self):
         self.squares = self.initialize_board()
+        self.current_turn = 'white'
 
     def initialize_board(self):
         board = [[None for _ in range(8)] for _ in range(8)]
@@ -27,10 +28,13 @@ class Board:
 
         if self.is_valid_move(start, end):
             piece = self.squares[start_row][start_col]
-            self.squares[end_row][end_col] = piece
-            self.squares[start_row][start_col] = None
-            piece.position = end
-            return True
+            if piece.color == self.current_turn:  # Add this check
+                self.squares[end_row][end_col] = piece
+                self.squares[start_row][start_col] = None
+                piece.position = end
+                self.current_turn = 'black' if self.current_turn == 'white' else 'white'
+
+                return True
         return False
 
     def is_valid_move(self, start, end):
@@ -42,3 +46,24 @@ class Board:
 
         valid_moves = piece.get_valid_moves(self.squares)
         return end in valid_moves
+
+    def is_checkmate(self):
+        # TODO maybe optimze this
+        white_king_exists = False
+        black_king_exists = False
+
+        for row in range(8):
+            for col in range(8):
+                piece = self.squares[row][col]
+                if isinstance(piece, King):
+                    if piece.color == 'white':
+                        white_king_exists = True
+                    else:
+                        black_king_exists = True
+
+        if not white_king_exists:
+            return 'Black'
+        if not black_king_exists:
+            return 'White'
+        return None
+

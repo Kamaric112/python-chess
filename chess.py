@@ -19,6 +19,8 @@ class ChessBoard:
         self.HIGHLIGHT_COLOR = (124, 252, 0)
         self.valid_moves = []
         self.selected_piece = None
+        pygame.font.init()
+        self.font = pygame.font.Font(None, 36)
 
     def load_pieces(self):
         pieces = {}
@@ -33,6 +35,10 @@ class ChessBoard:
                     image, (self.SQUARE_SIZE, self.SQUARE_SIZE)
                 )
         return pieces
+    def reset_game(self):
+        self.board = Board()
+        self.valid_moves = []
+        self.selected_piece = None
 
     def draw(self):
         while True:
@@ -48,15 +54,20 @@ class ChessBoard:
 
                     if 0 <= clicked_row < 8 and 0 <= clicked_col < 8:
                         if self.selected_piece:
-                            # If a piece is already selected, try to move it
                             if (clicked_row, clicked_col) in self.valid_moves:
                                 self.board.move_piece(self.selected_piece.position, (clicked_row, clicked_col))
+                                # Check for winner after each move
+                                winner = self.board.is_checkmate()
+                                if winner:
+                                    result = self.show_victory_screen(winner)
+                                    if result == "menu":
+                                        self.reset_game()
+                                        return "menu"
                             self.selected_piece = None
                             self.valid_moves = []
                         else:
-                            # Select the piece and get its valid moves
                             piece = self.board.squares[clicked_row][clicked_col]
-                            if piece:
+                            if piece and piece.color == self.board.current_turn:
                                 self.selected_piece = piece
                                 self.valid_moves = piece.get_valid_moves(self.board.squares)
 
@@ -91,4 +102,48 @@ class ChessBoard:
                         piece_image = self.pieces_images[piece_name]
                         self.screen.blit(piece_image, (x, y))
 
+                # Enhanced turn display with background box
+            turn_text = f"{self.board.current_turn.capitalize()}'s Turn"
+            text_surface = self.font.render(turn_text, True, self.WHITE)
+            text_rect = text_surface.get_rect(center=(self.width // 2, 30))
+
+            # Draw background box
+            box_rect = text_rect.copy()
+            box_rect.inflate_ip(20 * 2, 20)
+            pygame.draw.rect(self.screen, (34, 139, 34), box_rect, border_radius=10)
+
+            # Draw text
+            self.screen.blit(text_surface, text_rect)
+
             pygame.display.flip()
+
+    def show_victory_screen(self, winner):
+        victory_font = pygame.font.Font(None, 74)
+        text = f"{winner} Wins!"
+
+        while True:
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_RETURN:
+                        return "menu"
+
+            # Draw victory screen
+            self.screen.fill((60, 25, 60))
+
+            # Create text surfaces
+            text_surface = victory_font.render(text, True, (255, 215, 0))
+            continue_text = self.font.render("Press ENTER to return to menu", True, (255, 255, 255))
+
+            # Position text
+            text_rect = text_surface.get_rect(center=(self.width // 2, self.height // 2))
+            continue_rect = continue_text.get_rect(center=(self.width // 2, self.height // 2 + 100))
+
+            # Draw text
+            self.screen.blit(text_surface, text_rect)
+            self.screen.blit(continue_text, continue_rect)
+
+            pygame.display.flip()
+

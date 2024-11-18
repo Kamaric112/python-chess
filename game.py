@@ -1,7 +1,6 @@
 import pygame
 from menu import Menu
 from chess import ChessBoard
-from pieces.chess import ChessGame
 
 pygame.init()
 res = (720, 720)
@@ -13,21 +12,20 @@ height = screen.get_height()
 def main():
     menu = Menu(screen, width, height)
     chess_board = ChessBoard(screen, width, height)
-    game = ChessGame()
-    # display = BoardDisplay(game.board)
 
     while True:
         action = menu.run()
         if action == "start":
-            chess_board.draw()
+            game_result = chess_board.draw()
+            if game_result == "menu":
+                continue
 
-        # display.show_board()
+        #  TODO update menu (beautify)
+        #  TODO add member list
+        #  TODO add music
+        #  TODO add back button in chess
+        #  TODO show list of capture pieces
         pygame.display.flip()
-
-        # Get player input
-        # Make moves
-        # Check game state
-
 
 if __name__ == "__main__":
     main()
