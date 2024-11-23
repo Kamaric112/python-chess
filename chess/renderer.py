@@ -10,15 +10,42 @@ class ChessRenderer:
         self.WHITE = (255, 255, 255)
         self.BLACK = (128, 128, 128)
         self.HIGHLIGHT_COLOR = (124, 252, 0)
-        self.SQUARE_SIZE = min(width, height) // 8
+        # Adjust board size to leave space for users
+        self.SQUARE_SIZE = min(width, height - 200) // 8  # Reduced to leave space
         self.start_x = (width - self.SQUARE_SIZE * 8) // 2
-        self.start_y = (height - self.SQUARE_SIZE * 8) // 2
+        # Adjust start_y to center the board between users
+        self.start_y = 100 + (height - 200 - self.SQUARE_SIZE * 8) // 2
         self.pieces_images = self.load_pieces()
-        pygame.font.init()
         self.font = pygame.font.Font(None, 36)
         self.game_state = "playing"
-        self.BACK_BUTTON_COLOR = (34, 139, 34)
-        self.back_button_rect = pygame.Rect(20, 20, 100, 40)
+        self.back_button_color = (34, 139, 34)
+        self.back_button_rect = pygame.Rect(5, 300, 60, 40)
+        pygame.font.init()
+
+    def draw_users(self, user_a, user_b):
+        # Draw background rectangles for user sections
+        user_background = (139, 69, 19)  # Saddle brown color
+        top_rect = pygame.Rect(0, 0, self.width, 100)
+        bottom_rect = pygame.Rect(0, self.height - 100, self.width, 100)
+        pygame.draw.rect(self.screen, user_background, top_rect)
+        pygame.draw.rect(self.screen, user_background, bottom_rect)
+        # Draw User A at the top
+        user_image_size = 80
+        # Top user
+        if user_a.image:
+            user_a_image = pygame.image.load(user_a.image)
+            user_a_image = pygame.transform.scale(user_a_image, (user_image_size, user_image_size))
+            self.screen.blit(user_a_image, (20, 10))
+        user_a_text = self.font.render(user_a.name, True, self.WHITE)
+        self.screen.blit(user_a_text, (120, 40))
+
+        # Bottom user
+        if user_b.image:
+            user_b_image = pygame.image.load(user_b.image)
+            user_b_image = pygame.transform.scale(user_b_image, (user_image_size, user_image_size))
+            self.screen.blit(user_b_image, (20, self.height - 90))
+        user_b_text = self.font.render(user_b.name, True, self.WHITE)
+        self.screen.blit(user_b_text, (120, self.height - 60))
 
 
     def load_pieces(self):
@@ -35,10 +62,11 @@ class ChessRenderer:
                 )
         return pieces
 
-    def draw_board(self, game):
+    def draw_board(self, game,user_a,user_b):
         if self.game_state == "playing":
             self.screen.fill((60, 25, 60))
             self._draw_squares(game)
+            self.draw_users(user_a, user_b)
             self._draw_turn_indicator(game.board.current_turn)
             self._draw_back_button()
             pygame.display.flip()
@@ -76,11 +104,17 @@ class ChessRenderer:
         self.screen.blit(text_surface, text_rect)
 
     def _draw_back_button(self):
-        pygame.draw.rect(self.screen, self.BACK_BUTTON_COLOR, self.back_button_rect, border_radius=10)
+
+        pygame.draw.rect(self.screen, self.back_button_color, self.back_button_rect, border_radius=10)
         back_text = self.font.render("Back", True, self.WHITE)
         text_rect = back_text.get_rect(center=self.back_button_rect.center)
         self.screen.blit(back_text, text_rect)
 
+    def draw_input_box(self, text):
+        pygame.draw.rect(self.screen, (0, 0, 0), (self.width // 4, self.height // 3, self.width // 2, 100))
+        text_surface = self.font.render(text, True, self.WHITE)
+        self.screen.blit(text_surface, (self.width // 4 + 10, self.height // 3 + 40))
+        pygame.display.flip()
 
 
     def show_victory_screen(self, winner):
