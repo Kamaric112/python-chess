@@ -19,6 +19,9 @@ class ChessEventHandler:
                     result = self._handle_mouse_click()
                     if result == "menu":
                         return result
+            elif event.type == pygame.MOUSEMOTION:
+                if self.renderer.game_state == "playing":
+                    self._handle_mouse_hover()
             elif event.type == pygame.KEYDOWN and self.renderer.game_state == "victory":
                 if event.key == pygame.K_RETURN:
                     return "menu"
@@ -62,3 +65,13 @@ class ChessEventHandler:
                         self.renderer.show_victory_screen(winner)
             else:
                 self.game.select_piece(clicked_row, clicked_col)
+
+    def _handle_mouse_hover(self):
+        mouse_pos = pygame.mouse.get_pos()
+        hover_row = (mouse_pos[1] - self.renderer.start_y) // self.renderer.SQUARE_SIZE
+        hover_col = (mouse_pos[0] - self.renderer.start_x) // self.renderer.SQUARE_SIZE
+
+        if 0 <= hover_row < 8 and 0 <= hover_col < 8:
+            self.game.hover_moves = self.game.get_hover_moves(hover_row, hover_col)
+        else:
+            self.game.hover_moves = []

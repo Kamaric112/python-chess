@@ -102,9 +102,17 @@ class ChessRenderer:
                 color = self.WHITE if (row + col) % 2 == 0 else self.BLACK
                 pygame.draw.rect(self.screen, color, (x, y, self.SQUARE_SIZE, self.SQUARE_SIZE))
 
+                # Draw valid moves for selected piece
                 if (row, col) in game.valid_moves:
                     s = pygame.Surface((self.SQUARE_SIZE, self.SQUARE_SIZE))
                     s.set_alpha(128)
+                    s.fill(self.HIGHLIGHT_COLOR)
+                    self.screen.blit(s, (x, y))
+
+                # Draw hover moves with different alpha
+                if (row, col) in game.hover_moves:
+                    s = pygame.Surface((self.SQUARE_SIZE, self.SQUARE_SIZE))
+                    s.set_alpha(64)  # More transparent than selected highlights
                     s.fill(self.HIGHLIGHT_COLOR)
                     self.screen.blit(s, (x, y))
 

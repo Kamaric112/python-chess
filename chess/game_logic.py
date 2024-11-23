@@ -9,6 +9,14 @@ class ChessGame:
         self.user_a = None
         self.user_b = None
 
+        self.hover_moves = []  # Add this line
+
+    def get_hover_moves(self, row, col):
+        piece = self.board.squares[row][col]
+        if piece and piece.color == self.board.current_turn:
+            return piece.get_valid_moves(self.board.squares)
+        return []
+
     def reset_game(self):
         self.board = Board()
         self.valid_moves = []
