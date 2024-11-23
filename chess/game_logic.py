@@ -6,6 +6,8 @@ class ChessGame:
         self.board = Board()
         self.valid_moves = []
         self.selected_piece = None
+        self.user_a = None
+        self.user_b = None
 
     def reset_game(self):
         self.board = Board()

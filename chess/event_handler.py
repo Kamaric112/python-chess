@@ -25,6 +25,27 @@ class ChessEventHandler:
 
     def _handle_mouse_click(self):
         mouse_pos = pygame.mouse.get_pos()
+
+        # Handle user A profile click
+        if self.renderer.user_a_profile_rect.collidepoint(mouse_pos):
+            self.game.user_a.change_image()
+            return
+
+         # Handle user A name click
+        if self.renderer.user_a_name_rect.collidepoint(mouse_pos):
+            self.game.user_a.change_name()
+            return
+
+         # Handle user B name click
+        if self.renderer.user_b_name_rect.collidepoint(mouse_pos):
+            self.game.user_b.change_name()
+            return
+
+        # Handle user B profile click
+        if self.renderer.user_b_profile_rect.collidepoint(mouse_pos):
+            self.game.user_b.change_image()
+            return
+
         # add back button handling
         if self.renderer.back_button_rect.collidepoint(mouse_pos):
             return "menu"

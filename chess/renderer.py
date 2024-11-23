@@ -20,6 +20,13 @@ class ChessRenderer:
         self.game_state = "playing"
         self.back_button_color = (34, 139, 34)
         self.back_button_rect = pygame.Rect(5, 300, 60, 40)
+
+        # Add rectangles for user profiles
+        self.user_a_profile_rect = pygame.Rect(10, 10, 100, 100)
+        self.user_a_name_rect = pygame.Rect(120, 30, 200, 40)  # Added clickable name box
+        self.user_b_name_rect = pygame.Rect(120, self.height - 70, 200,40)  # Added clickable name box
+        self.user_b_profile_rect = pygame.Rect(width - 110, 10, 100, 100)
+
         pygame.font.init()
 
     def draw_users(self, user_a, user_b):
@@ -29,24 +36,38 @@ class ChessRenderer:
         bottom_rect = pygame.Rect(0, self.height - 100, self.width, 100)
         pygame.draw.rect(self.screen, user_background, top_rect)
         pygame.draw.rect(self.screen, user_background, bottom_rect)
-        # Draw User A at the top
-        user_image_size = 80
-        # Top user
+
+        # Create clickable areas for users
+        self.user_a_profile_rect = pygame.Rect(20, 10, 80, 80)
+        self.user_b_profile_rect = pygame.Rect(20, self.height - 90, 80, 80)
+
+        # Draw User A at the top with clickable area
+        pygame.draw.rect(self.screen, (100, 50, 10), self.user_a_profile_rect)  # Darker brown for clickable area
         if user_a.image:
             user_a_image = pygame.image.load(user_a.image)
-            user_a_image = pygame.transform.scale(user_a_image, (user_image_size, user_image_size))
-            self.screen.blit(user_a_image, (20, 10))
-        user_a_text = self.font.render(user_a.name, True, self.WHITE)
-        self.screen.blit(user_a_text, (120, 40))
+            user_a_image = pygame.transform.scale(user_a_image, (self.user_a_profile_rect.width, self.user_a_profile_rect.height))
+            self.screen.blit(user_a_image, self.user_a_profile_rect)
 
-        # Bottom user
+        # Draw User A name box with border
+        pygame.draw.rect(self.screen, (100, 50, 10), self.user_a_name_rect)
+        pygame.draw.rect(self.screen, (150, 75, 15), self.user_a_name_rect, 2)  # Border
+        user_a_text = self.font.render(user_a.name, True, self.WHITE)
+        text_rect = user_a_text.get_rect(center=self.user_a_name_rect.center)
+        self.screen.blit(user_a_text, text_rect)
+
+        # Draw User B at the bottom with clickable area
+        pygame.draw.rect(self.screen, (100, 50, 10), self.user_b_profile_rect)  # Darker brown for clickable area
         if user_b.image:
             user_b_image = pygame.image.load(user_b.image)
-            user_b_image = pygame.transform.scale(user_b_image, (user_image_size, user_image_size))
-            self.screen.blit(user_b_image, (20, self.height - 90))
-        user_b_text = self.font.render(user_b.name, True, self.WHITE)
-        self.screen.blit(user_b_text, (120, self.height - 60))
+            user_b_image = pygame.transform.scale(user_b_image, (self.user_b_profile_rect.width, self.user_b_profile_rect.height))
+            self.screen.blit(user_b_image, self.user_b_profile_rect)
 
+        # Draw User B name box with border
+        pygame.draw.rect(self.screen, (100, 50, 10), self.user_b_name_rect)
+        pygame.draw.rect(self.screen, (150, 75, 15), self.user_b_name_rect, 2)  # Border
+        user_b_text = self.font.render(user_b.name, True, self.WHITE)
+        text_rect = user_b_text.get_rect(center=self.user_b_name_rect.center)
+        self.screen.blit(user_b_text, text_rect)
 
     def load_pieces(self):
         pieces = {}

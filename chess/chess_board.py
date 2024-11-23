@@ -13,6 +13,9 @@ class ChessBoard:
         self.event_handler = ChessEventHandler(self.game, self.renderer)
         self.user_a = User('User A',os.path.join('assets', 'black-bishop.png'))
         self.user_b = User('User B',os.path.join('assets', 'white-bishop.png'))
+        self.game.user_a = self.user_a
+        self.game.user_b = self.user_b
+
     def draw(self):
         while True:
             result = self.event_handler.handle_events()
