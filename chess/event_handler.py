@@ -10,6 +10,11 @@ class ChessEventHandler:
         self.renderer = renderer
 
     def handle_events(self):
+        time_winner = self.game.update_timer()
+        if time_winner:
+            self.renderer.game_state = "victory"
+            self.renderer.show_victory_screen(time_winner)
+            return
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()

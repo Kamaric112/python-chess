@@ -1,14 +1,14 @@
 import os
 
 from chess.event_handler import ChessEventHandler
-from chess.game_logic import ChessGame
+from chess.game_logic import ChessGameLogic
 from chess.renderer import ChessRenderer
 from user import User
 
 
 class ChessBoard:
     def __init__(self, screen, width, height):
-        self.game = ChessGame()
+        self.game = ChessGameLogic()
         self.renderer = ChessRenderer(screen, width, height)
         self.event_handler = ChessEventHandler(self.game, self.renderer)
         self.user_a = User('User A',os.path.join('assets', 'black-bishop.png'))

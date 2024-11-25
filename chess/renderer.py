@@ -69,6 +69,21 @@ class ChessRenderer:
         text_rect = user_b_text.get_rect(center=self.user_b_name_rect.center)
         self.screen.blit(user_b_text, text_rect)
 
+    def _draw_timers(self, timer_a, timer_b):
+        # Draw timer for User A
+        minutes_a = int(timer_a // 60)
+        seconds_a = int(timer_a % 60)
+        timer_text_a = f"{minutes_a:02d}:{seconds_a:02d}"
+        timer_surface_a = self.font.render(timer_text_a, True, self.WHITE)
+        self.screen.blit(timer_surface_a, (self.width - 150, 40))
+
+        # Draw timer for User B
+        minutes_b = int(timer_b // 60)
+        seconds_b = int(timer_b % 60)
+        timer_text_b = f"{minutes_b:02d}:{seconds_b:02d}"
+        timer_surface_b = self.font.render(timer_text_b, True, self.WHITE)
+        self.screen.blit(timer_surface_b, (self.width - 150, self.height - 60))
+
     def load_pieces(self):
         pieces = {}
         piece_types = ['pawn', 'rook', 'knight', 'bishop', 'queen', 'king']
@@ -90,6 +105,8 @@ class ChessRenderer:
             self.draw_users(user_a, user_b)
             self._draw_turn_indicator(game.board.current_turn)
             self._draw_back_button()
+            self._draw_timers(game.timer_a, game.timer_b)
+
             pygame.display.flip()
         elif self.game_state == "victory":
             self.show_victory_screen(game.board.is_checkmate())
