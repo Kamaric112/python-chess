@@ -142,7 +142,7 @@ class ChessRenderer:
     def _draw_turn_indicator(self, current_turn):
         turn_text = f"{current_turn.capitalize()}'s Turn"
         text_surface = self.font.render(turn_text, True, self.WHITE)
-        text_rect = text_surface.get_rect(center=(self.width // 2, 30))
+        text_rect = text_surface.get_rect(center=(self.width // 2 + 100, 50))
 
         box_rect = text_rect.copy()
         box_rect.inflate_ip(20 * 2, 20)
