@@ -66,4 +66,3 @@ class Board:
         if not black_king_exists:
             return 'White'
         return None
-

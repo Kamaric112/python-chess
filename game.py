@@ -29,5 +29,6 @@ def main():
         #  TODO show list of capture pieces
         pygame.display.flip()
 
+
 if __name__ == "__main__":
     main()

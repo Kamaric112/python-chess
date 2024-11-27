@@ -24,7 +24,7 @@ class ChessRenderer:
         # Add rectangles for user profiles
         self.user_a_profile_rect = pygame.Rect(10, 10, 100, 100)
         self.user_a_name_rect = pygame.Rect(120, 30, 200, 40)  # Added clickable name box
-        self.user_b_name_rect = pygame.Rect(120, self.height - 70, 200,40)  # Added clickable name box
+        self.user_b_name_rect = pygame.Rect(120, self.height - 70, 200, 40)  # Added clickable name box
         self.user_b_profile_rect = pygame.Rect(width - 110, 10, 100, 100)
 
         pygame.font.init()
@@ -45,7 +45,8 @@ class ChessRenderer:
         pygame.draw.rect(self.screen, (100, 50, 10), self.user_a_profile_rect)  # Darker brown for clickable area
         if user_a.image:
             user_a_image = pygame.image.load(user_a.image)
-            user_a_image = pygame.transform.scale(user_a_image, (self.user_a_profile_rect.width, self.user_a_profile_rect.height))
+            user_a_image = pygame.transform.scale(user_a_image,
+                                                  (self.user_a_profile_rect.width, self.user_a_profile_rect.height))
             self.screen.blit(user_a_image, self.user_a_profile_rect)
 
         # Draw User A name box with border
@@ -59,7 +60,8 @@ class ChessRenderer:
         pygame.draw.rect(self.screen, (100, 50, 10), self.user_b_profile_rect)  # Darker brown for clickable area
         if user_b.image:
             user_b_image = pygame.image.load(user_b.image)
-            user_b_image = pygame.transform.scale(user_b_image, (self.user_b_profile_rect.width, self.user_b_profile_rect.height))
+            user_b_image = pygame.transform.scale(user_b_image,
+                                                  (self.user_b_profile_rect.width, self.user_b_profile_rect.height))
             self.screen.blit(user_b_image, self.user_b_profile_rect)
 
         # Draw User B name box with border
@@ -98,7 +100,7 @@ class ChessRenderer:
                 )
         return pieces
 
-    def draw_board(self, game,user_a,user_b):
+    def draw_board(self, game, user_a, user_b):
         if self.game_state == "playing":
             self.screen.fill((60, 25, 60))
             self._draw_squares(game)
@@ -109,7 +111,8 @@ class ChessRenderer:
 
             pygame.display.flip()
         elif self.game_state == "victory":
-            self.show_victory_screen(game.board.is_checkmate())
+            winner = game.board.is_checkmate()
+            self.show_victory_screen(f"{winner} (Checkmate)")
 
     def _draw_squares(self, game):
         for row in range(8):
@@ -162,10 +165,12 @@ class ChessRenderer:
         self.screen.blit(text_surface, (self.width // 4 + 10, self.height // 3 + 40))
         pygame.display.flip()
 
-
     def show_victory_screen(self, winner):
+        if not winner:
+            return
+
         victory_font = pygame.font.Font(None, 74)
-        text = f"{winner} Wins!"
+        text = f"{winner}"
 
         self.screen.fill((60, 25, 60))
         text_surface = victory_font.render(text, True, (255, 215, 0))
@@ -177,3 +182,8 @@ class ChessRenderer:
         self.screen.blit(text_surface, text_rect)
         self.screen.blit(continue_text, continue_rect)
         pygame.display.flip()
+
+    def reset(self):
+        self.game_state = "playing"
+        # Clear any temporary drawing surfaces if needed
+        self.screen.fill((60, 25, 60))
