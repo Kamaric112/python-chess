@@ -10,23 +10,29 @@ class ChessEventHandler:
         self.renderer = renderer
 
     def handle_events(self):
-        time_winner = self.game.update_timer()
-        if time_winner:
-            self.renderer.game_state = "victory"
-            self.renderer.show_victory_screen(time_winner)
-            return
+        if self.renderer.game_state == "playing":
+            time_winner = self.game.update_timer()
+
+            if time_winner:
+                self.renderer.game_state = "victory"
+                self.renderer.show_victory_screen(f"{time_winner} (Time)")
+                return
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
                 sys.exit()
+
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if self.renderer.game_state == "playing":
                     result = self._handle_mouse_click()
                     if result == "menu":
                         return result
+
             elif event.type == pygame.MOUSEMOTION:
                 if self.renderer.game_state == "playing":
                     self._handle_mouse_hover()
+
             elif event.type == pygame.KEYDOWN and self.renderer.game_state == "victory":
                 if event.key == pygame.K_RETURN:
                     return "menu"
@@ -39,12 +45,12 @@ class ChessEventHandler:
             self.game.user_a.change_image()
             return
 
-         # Handle user A name click
+        # Handle user A name click
         if self.renderer.user_a_name_rect.collidepoint(mouse_pos):
             self.game.user_a.change_name()
             return
 
-         # Handle user B name click
+        # Handle user B name click
         if self.renderer.user_b_name_rect.collidepoint(mouse_pos):
             self.game.user_b.change_name()
             return
@@ -67,7 +73,7 @@ class ChessEventHandler:
                     winner = self.game.board.is_checkmate()
                     if winner:
                         self.renderer.game_state = "victory"
-                        self.renderer.show_victory_screen(winner)
+                        self.renderer.show_victory_screen(f"{winner} (Checkmate)")
             else:
                 self.game.select_piece(clicked_row, clicked_col)
 
@@ -80,3 +86,6 @@ class ChessEventHandler:
             self.game.hover_moves = self.game.get_hover_moves(hover_row, hover_col)
         else:
             self.game.hover_moves = []
+
+    def reset(self):
+        self.renderer.game_state = "playing"

@@ -22,15 +22,16 @@ class ChessGameLogic:
         self.last_time = current_time
 
         if self.board.current_turn == 'white':
-            self.timer_a -= elapsed
-        else:
             self.timer_b -= elapsed
+        else:
+            self.timer_a -= elapsed
 
         if self.timer_a <= 0:
-            return 'black'
-        elif self.timer_b <= 0:
             return 'white'
-        return None
+        elif self.timer_b <= 0:
+            return 'black'
+        else:
+            return None
 
     def get_hover_moves(self, row, col):
         piece = self.board.squares[row][col]
@@ -58,3 +59,12 @@ class ChessGameLogic:
             self.valid_moves = []
             return True
         return False
+
+    def reset(self):
+        self.board = Board()
+        self.valid_moves = []
+        self.selected_piece = None
+        self.hover_moves = []
+        self.timer_a = 600
+        self.timer_b = 600
+        self.last_time = pygame.time.get_ticks()
