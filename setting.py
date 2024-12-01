@@ -2,12 +2,14 @@ import pygame
 import sys
 
 class Setting:
-    def __init__(self, screen, width, height):
+    def __init__(self, screen, width, height, config):
+        self.config = config
+
         self.screen = screen
         self.SCREEN_WIDTH, self.SCREEN_HEIGHT = width, height
 
         # Màu sắc
-        self.BACKGROUND_COLOR = (30, 30, 60)
+        self.BACKGROUND_COLOR = (60, 25, 60)
         self.TEXT_COLOR = (255, 255, 255)
         self.INPUT_COLOR = (70, 70, 70)
         self.BUTTON_COLOR = (100, 100, 150)
@@ -19,8 +21,8 @@ class Setting:
 
         # Các trường nhập liệu
         self.inputs = {
-            "player_a": {"label": "Player 1:", "value": "", "pos": (100, 100)},
-            "player_b": {"label": "Player 2:", "value": "", "pos": (100, 160)},
+            "player_a": {"label": "Player A:", "value": "", "pos": (100, 100)},
+            "player_b": {"label": "Player B:", "value": "", "pos": (100, 160)},
             "time": {"label": "Time (min):", "value": "10", "pos": (100, 220)}
         }
 
@@ -102,9 +104,13 @@ class Setting:
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     if self.save_button.collidepoint(event.pos):
                         # Lưu dữ liệu và thoát Setting
+                        self.config.time = self.inputs["time"]["value"]
+                        self.config.playerA = self.inputs["player_a"]["value"]
+                        self.config.playerB = self.inputs["player_b"]["value"]
+                        
                         print("JSON return:")
-                        return {"player_a":  "Player A" or self.inputs["player_a"]["value"],
-                                "player_b": "Player B" or self.inputs["player_b"]["value"],
+                        return {"player_a": self.inputs["player_a"]["value"],
+                                "player_b": self.inputs["player_b"]["value"],
                                 "time": self.inputs["time"]["value"]}
 
                     # Kiểm tra xem người dùng có click vào ô nhập liệu hay không

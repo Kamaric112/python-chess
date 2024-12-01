@@ -4,16 +4,16 @@ from board import Board
 
 
 class ChessGameLogic:
-    def __init__(self):
+    def __init__(self,config):
         self.board = Board()
         self.valid_moves = []
         self.selected_piece = None
-        self.user_a = None
-        self.user_b = None
+        self.user_a = config.playerA
+        self.user_b = config.playerB
 
         self.hover_moves = []
-        self.timer_a = 600
-        self.timer_b = 600
+        self.timer_a = config.time*60
+        self.timer_b = config.time*60
         self.last_time = pygame.time.get_ticks()
 
     def update_timer(self):

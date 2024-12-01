@@ -2,16 +2,18 @@ import pygame
 import sys
 
 class Menu:
-    def __init__(self, screen, width, height):
+    def __init__(self, screen, width, height, config):
+        self.config = config
         self.screen = screen
         self.SCREEN_WIDTH, self.SCREEN_HEIGHT = width, height
 
         # Màu sắc
-        self.BACKGROUND_COLOR = (30, 30, 60)
-        self.BUTTON_COLOR = (70, 70, 70)
-        self.BUTTON_HOVER_COLOR = (100, 100, 150)
+        self.BACKGROUND_COLOR = (60, 25, 60)
+        self.BUTTON_COLOR = (100, 100, 150)
+        self.BUTTON_HOVER_COLOR = (120, 120, 170)
         self.TEXT_COLOR = (255, 255, 255)
-        self.SHADOW_COLOR = (40, 40, 40)
+        self.SHADOW_COLOR = (34, 139, 34)
+
 
         # Phông chữ
         self.font_title = pygame.font.Font(None, 64)
@@ -34,7 +36,7 @@ class Menu:
 
         # Tải ảnh nền
         try:
-            self.background = pygame.image.load("./assets/bg.png")
+            self.background = pygame.image.load("./assets/bg4.png")
             self.background = pygame.transform.scale(self.background, (self.SCREEN_WIDTH, self.SCREEN_HEIGHT))
         except FileNotFoundError:
             self.background = None
@@ -101,7 +103,7 @@ class Menu:
                         return "start"
                     elif selected_index == 1:  # Setting
                         from setting import Setting
-                        setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT)
+                        setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT, self.config)
                         settings_data = setting.run()
                         print(settings_data)
                         

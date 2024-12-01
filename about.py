@@ -7,7 +7,9 @@ class About:
         self.SCREEN_WIDTH, self.SCREEN_HEIGHT = width, height
 
         # Màu nền và chữ hài hòa với board.py
-        self.BACKGROUND_COLOR = (50, 50, 50)  # Màu nền xám đậm
+        self.BACKGROUND_COLOR = (60, 25, 60)  # Màu nền xám đậm
+       
+
         self.TEXT_COLOR = (255, 255, 255)  # Màu chữ trắng
 
         # Phông chữ tùy chỉnh (cần thay đường dẫn tới phông chữ thực tế)
