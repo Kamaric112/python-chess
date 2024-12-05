@@ -3,7 +3,7 @@ class Config:
         # Các tham số mặc định
         self.playerA = "BLACK"
         self.playerB = "WHITE"
-        self.time = 7  # Thời gian mặc định là 9 phút
+        self.time = 10  # Thời gian mặc định là 10 phút
 
     def update(self, player_a=None, player_b=None, time_limit=None):
         if player_a is not None:
