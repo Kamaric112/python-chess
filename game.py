@@ -21,6 +21,7 @@ def main():
     menu = Menu(screen, width, height, config)
     chess_board = ChessBoard(screen, width, height, config)
 
+
     while True:
         action = menu.run()
         if action == "start":

@@ -4,6 +4,7 @@ import sys
 class Menu:
     def __init__(self, screen, width, height, config):
         self.config = config
+
         self.screen = screen
         self.SCREEN_WIDTH, self.SCREEN_HEIGHT = width, height
 
@@ -105,6 +106,10 @@ class Menu:
                         from setting import Setting
                         setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT, self.config)
                         settings_data = setting.run()
+                        #self.config.update(player_a=settings_data['player_a'], player_b=settings_data['player_b'], time=settings_data['time'])
+
+                        #self.config.update(**settings_data)  # Cập nhật Config
+
                         print(settings_data)
                         
                     elif selected_index == 2:  # About
@@ -127,7 +132,11 @@ class Menu:
                         elif selected_index == 1:
                             from setting import Setting
                             setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT)
-                            settings_data = setting.run()
+                            #settings_data = setting.run()
+                            #self.config.update(player_a=settings_data['player_a'], player_b=settings_data['player_b'], time=settings_data['time'])
+
+                            #self.config.update(**settings_data)  # Cập nhật Config
+
                             print(settings_data)
 
                         elif selected_index == 2:  # About

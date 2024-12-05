@@ -14,22 +14,23 @@ class About:
 
         # Phông chữ tùy chỉnh (cần thay đường dẫn tới phông chữ thực tế)
         try:
-            self.font_title = pygame.font.Font("./assets/Roboto/Roboto-Regular.ttf", 72)
-            self.font_body = pygame.font.Font("./assets/Roboto/Roboto-Regular.ttf", 36)
+            self.font_title = pygame.font.Font("./assets/Roboto/Roboto-Regular.ttf", 62)
+            self.font_body = pygame.font.Font("./assets/Roboto/Roboto-Regular.ttf", 25)
         except FileNotFoundError:
             print("Phông chữ không tìm thấy! Hãy kiểm tra đường dẫn.")
             sys.exit()
 
         # Dữ liệu về đội ngũ phát triển
         self.about_text = [
-            "Đồ Án Python",
-            "Nhóm 20",
-            "Trường",
-            "Thành",
-            "Đạt",
-            "Kiên",
-            "Nhật",
-            "Phương"
+            "Đồ Án Python - Nhóm 20",
+            "------",
+            "Nguyễn Quang Trường (nhóm trưởng)",
+            "Nguyễn Ngọc Thành",
+            "Trần Quang Kiên",
+            "Nguyễn Hữu Nhật",
+            "Võ Thành Đạt",
+            "Phạm Phan Phương",
+           
         ]
 
         # Nút thoát với màu sắc hài hòa

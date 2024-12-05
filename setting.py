@@ -107,6 +107,12 @@ class Setting:
                         self.config.time = self.inputs["time"]["value"]
                         self.config.playerA = self.inputs["player_a"]["value"]
                         self.config.playerB = self.inputs["player_b"]["value"]
+
+                        # a = self.inputs["player_a"]["value"]
+                        # b = self.inputs["player_b"]["value"]
+                        # t = int(self.inputs["time"]["value"])
+
+                        # self.config.update(a,b,t)
                         
                         print("JSON return:")
                         return {"player_a": self.inputs["player_a"]["value"],

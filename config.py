@@ -1,14 +1,14 @@
 class Config:
     def __init__(self):
         # Các tham số mặc định
-        self.playerA = "Default Player A"
-        self.playerB = "Default Player B"
-        self.time = 10  # Thời gian mặc định là 10 phút
+        self.playerA = "BLACK"
+        self.playerB = "WHITE"
+        self.time = 7  # Thời gian mặc định là 9 phút
 
-    def update(self, playerA=None, playerB=None, time=None):
-        if playerA is not None:
-            self.playerA = playerA
-        if playerB is not None:
-            self.playerB = playerB
-        if time is not None:
-            self.time = time
+    def update(self, player_a=None, player_b=None, time_limit=None):
+        if player_a is not None:
+            self.playerA = player_a
+        if player_b is not None:
+            self.playerB = player_b
+        if time_limit is not None:
+            self.time_limit = time_limit
