@@ -104,20 +104,14 @@ class Setting:
                 elif event.type == pygame.MOUSEBUTTONDOWN:
                     if self.save_button.collidepoint(event.pos):
                         # Lưu dữ liệu và thoát Setting
-                        self.config.time = self.inputs["time"]["value"]
+                        self.config.time = int(self.inputs["time"]["value"])  # Chuyển đổi thành số nguyên
                         self.config.playerA = self.inputs["player_a"]["value"]
                         self.config.playerB = self.inputs["player_b"]["value"]
 
-                        # a = self.inputs["player_a"]["value"]
-                        # b = self.inputs["player_b"]["value"]
-                        # t = int(self.inputs["time"]["value"])
-
-                        # self.config.update(a,b,t)
-                        
                         print("JSON return:")
                         return {"player_a": self.inputs["player_a"]["value"],
                                 "player_b": self.inputs["player_b"]["value"],
-                                "time": self.inputs["time"]["value"]}
+                                "time": int(self.inputs["time"]["value"])}  # Chuyển đổi thành số nguyên
 
                     # Kiểm tra xem người dùng có click vào ô nhập liệu hay không
                     for key, field in self.inputs.items():

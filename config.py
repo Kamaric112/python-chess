@@ -11,4 +11,4 @@ class Config:
         if player_b is not None:
             self.playerB = player_b
         if time_limit is not None:
-            self.time_limit = time_limit
+            self.time = time_limit

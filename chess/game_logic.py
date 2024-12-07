@@ -67,6 +67,6 @@ class ChessGameLogic:
         self.valid_moves = []
         self.selected_piece = None
         self.hover_moves = []
-        self.timer_a = self.config.time*60
-        self.timer_b = self.config.time*60
+        self.timer_a = self.config.time * 60
+        self.timer_b = self.config.time * 60
         self.last_time = pygame.time.get_ticks()

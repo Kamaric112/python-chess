@@ -106,10 +106,9 @@ class Menu:
                         from setting import Setting
                         setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT, self.config)
                         settings_data = setting.run()
-                        #self.config.update(player_a=settings_data['player_a'], player_b=settings_data['player_b'], time=settings_data['time'])
-
-                        #self.config.update(**settings_data)  # Cập nhật Config
-
+                        if settings_data:
+                            self.config.update(player_a=settings_data['player_a'], player_b=settings_data['player_b'], time_limit=int(settings_data['time']))
+                            print(self.config.playerA, self.config.playerB, self.config.time)  # In ra để kiểm tra
                         print(settings_data)
                         
                     elif selected_index == 2:  # About
@@ -131,12 +130,11 @@ class Menu:
                             return "start"
                         elif selected_index == 1:
                             from setting import Setting
-                            setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT)
-                            #settings_data = setting.run()
-                            #self.config.update(player_a=settings_data['player_a'], player_b=settings_data['player_b'], time=settings_data['time'])
-
-                            #self.config.update(**settings_data)  # Cập nhật Config
-
+                            setting = Setting(self.screen, self.SCREEN_WIDTH, self.SCREEN_HEIGHT, self.config)
+                            settings_data = setting.run()
+                            if settings_data:
+                                self.config.update(player_a=settings_data['player_a'], player_b=settings_data['player_b'], time_limit=int(settings_data['time']))
+                                print(self.config.playerA, self.config.playerB, self.config.time)  # In ra để kiểm tra
                             print(settings_data)
 
                         elif selected_index == 2:  # About

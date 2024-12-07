@@ -7,7 +7,7 @@ from user import User
 
 
 class ChessBoard:
-    def __init__(self, screen, width, height,config):
+    def __init__(self, screen, width, height, config):
         self.config = config
         self.game = ChessGameLogic(config)
         self.renderer = ChessRenderer(screen, width, height)
