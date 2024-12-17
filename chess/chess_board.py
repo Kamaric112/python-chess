@@ -30,3 +30,13 @@ class ChessBoard:
                 self.game.reset_game()
                 return "menu"
             self.renderer.draw_board(self.game, self.user_a, self.user_b)
+
+
+
+import logging
+
+logging.basicConfig(
+    filename='chess/chess_game_event.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
