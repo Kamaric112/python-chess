@@ -4,16 +4,27 @@ import sys
 from chess import renderer
 
 
+import logging
+logging.basicConfig(filename='chess/chess_game_event.log', 
+                    level=logging.DEBUG, 
+                    format='%(asctime)s - %(levelname)s - %(message)s')
+
+
 class ChessEventHandler:
     def __init__(self, game, renderer):
         self.game = game
         self.renderer = renderer
+        
+
 
     def handle_events(self):
+        logging.info(f"Game State: {self.renderer.game_state}")
+        logging.info(f"Current Turn: {self.game.board.current_turn}")
         if self.renderer.game_state == "playing":
             time_winner = self.game.update_timer()
 
             if time_winner:
+                logging.info(f"Timer Update: {time_winner}")
                 self.renderer.game_state = "victory"
                 self.renderer.show_victory_screen(f"{time_winner} (Time)")
                 return
@@ -69,6 +80,10 @@ class ChessEventHandler:
 
         if 0 <= clicked_row < 8 and 0 <= clicked_col < 8:
             if self.game.selected_piece:
+                clicked_piece = self.game.board.squares[clicked_row][clicked_col]
+                if clicked_piece and clicked_piece.color == self.game.board.current_turn:
+                    self.game.select_piece(clicked_row, clicked_col)  
+                    return
                 if self.game.make_move(self.game.selected_piece.position, (clicked_row, clicked_col)):
                     winner = self.game.board.is_checkmate()
                     if winner:
@@ -89,3 +104,7 @@ class ChessEventHandler:
 
     def reset(self):
         self.renderer.game_state = "playing"
+
+
+
+

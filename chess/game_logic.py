@@ -48,11 +48,19 @@ class ChessGameLogic:
 
     def select_piece(self, row, col):
         piece = self.board.squares[row][col]
+         # If a new piece of same color is clicked, switch selection to it
         if piece and piece.color == self.board.current_turn:
             self.selected_piece = piece
             self.valid_moves = piece.get_valid_moves(self.board.squares)
             return True
         return False
+
+        # If same piece is selected again, deselect it
+        # if self.selected_piece and (row, col) == self.selected_piece.position:
+        #     self.selected_piece = None
+        #     self.valid_moves = []
+        #     return True
+        # return False
 
     def make_move(self, start_pos, end_pos):
         if end_pos in self.valid_moves:

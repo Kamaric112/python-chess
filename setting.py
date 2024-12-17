@@ -123,21 +123,48 @@ class Setting:
                         self.active_input = None  # Nếu không click vào ô nào thì bỏ active
 
                 # elif event.type == pygame.KEYDOWN:
+                # elif event.type == pygame.KEYDOWN:
+                #     if self.active_input:
+                #         # Giới hạn chỉ cho phép nhập số vào ô thời gian
+                #         if self.active_input == "time" and event.unicode.isdigit():
+                #             self.inputs[self.active_input]["value"] += event.unicode
+                #         elif self.active_input != "time" and len(self.inputs[self.active_input]["value"]) < 20:
+                #             self.inputs[self.active_input]["value"] += event.unicode
+                        
+                #         # Xử lý Backspace
+                #         elif event.key == pygame.K_BACKSPACE:
+                #             current_value = self.inputs[self.active_input]["value"]
+                #             # Kiểm tra nếu giá trị đang là mặc định thì xóa hết
+                #             if  len(current_value) > 0:
+                #                 # Nếu có ký tự trong ô, xóa ký tự cuối
+                #                 self.inputs[self.active_input]["value"] = current_value[:-1]
+
                 elif event.type == pygame.KEYDOWN:
-                    if self.active_input:
-                        # Giới hạn chỉ cho phép nhập số vào ô thời gian
-                        if self.active_input == "time" and event.unicode.isdigit():
+                    if event.key == pygame.K_TAB:
+                            if not self.active_input:
+                                self.active_input = list(self.inputs.keys())[0]
+                            else:
+                                input_keys = list(self.inputs.keys())
+                                current_index = input_keys.index(self.active_input)
+                                next_index = (current_index + 1) % len(input_keys)
+                                self.active_input = input_keys[next_index]
+                    elif self.active_input:
+                        # Handle Backspace
+                        if event.key == pygame.K_BACKSPACE:
+                            current_value = self.inputs[self.active_input]["value"]
+                            # Remove the last character if there's any input
+                            if len(current_value) > 0:
+                                self.inputs[self.active_input]["value"] = current_value[:-1]
+
+                        # Append new characters
+                        elif self.active_input == "time" and event.unicode.isdigit():
                             self.inputs[self.active_input]["value"] += event.unicode
                         elif self.active_input != "time" and len(self.inputs[self.active_input]["value"]) < 20:
                             self.inputs[self.active_input]["value"] += event.unicode
+                         # Handle Tab key to switch between input fields
                         
-                        # Xử lý Backspace
-                        elif event.key == pygame.K_BACKSPACE:
-                            current_value = self.inputs[self.active_input]["value"]
-                            # Kiểm tra nếu giá trị đang là mặc định thì xóa hết
-                            if  len(current_value) > 0:
-                                # Nếu có ký tự trong ô, xóa ký tự cuối
-                                self.inputs[self.active_input]["value"] = current_value[:-1]
+                        
+
 
             # Cập nhật màn hình
             pygame.display.flip()

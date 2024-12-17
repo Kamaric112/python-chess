@@ -52,6 +52,8 @@ class About:
         text_surface = self.font_body.render(text, True, self.TEXT_COLOR)
         text_rect = text_surface.get_rect(center=(x + width // 2, y + height // 2))
         self.screen.blit(text_surface, text_rect)
+  
+
 
     def run(self):
         """Hiển thị trang About."""
@@ -89,3 +91,59 @@ class About:
 
             # Cập nhật màn hình
             pygame.display.flip()
+
+
+
+    '''
+    def run(self):
+        """Hiển thị trang About với văn bản cuộn từ dưới lên."""
+        running = True
+
+        # Y-offset for scrolling text (starting just below the screen bottom)
+        y_offset = self.SCREEN_HEIGHT + 50  
+        scroll_speed = 1  # Speed of scrolling
+
+        while running:
+            self.screen.fill(self.BACKGROUND_COLOR)
+
+            # Tiêu đề (optional: keep fixed or scroll it too)
+            self.draw_text(self.about_text[0], self.SCREEN_WIDTH // 2, 100, self.font_title, self.TEXT_COLOR)
+
+            # In thông tin về đội ngũ phát triển, các dòng cuộn từ dưới lên
+            current_y_offset = y_offset
+            for line in self.about_text[1:]:
+                self.draw_text(line, self.SCREEN_WIDTH // 2, current_y_offset, self.font_body, self.TEXT_COLOR)
+                current_y_offset += 50  # Khoảng cách giữa các dòng
+
+            # Update the position of y_offset for scrolling
+            y_offset -= scroll_speed
+
+            # Reset y_offset when all text has scrolled off the screen
+            if current_y_offset < 0:
+                y_offset = self.SCREEN_HEIGHT + 50  # Restart the scrolling from below the screen
+
+            # Vẽ nút thoát
+            mouse_pos = pygame.mouse.get_pos()
+            quit_button_rect = pygame.Rect(self.quit_button_pos[0], self.quit_button_pos[1], 300, 60)
+
+            if quit_button_rect.collidepoint(mouse_pos):  # Khi chuột hover qua nút
+                self.draw_button("Back to Menu", *self.quit_button_pos, 300, 60, active=True)
+            else:
+                self.draw_button("Back to Menu", *self.quit_button_pos, 300, 60)
+
+            # Xử lý sự kiện
+            for event in pygame.event.get():
+                if event.type == pygame.QUIT:
+                    pygame.quit()
+                    sys.exit()
+
+                elif event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:  # Chuột trái
+                    if quit_button_rect.collidepoint(mouse_pos):  # Nhấn vào nút thoát
+                        running = False  # Quay lại menu
+
+            # Cập nhật màn hình
+            pygame.display.flip()
+            pygame.time.Clock().tick(60)  # Limit frame rate to 60 FPS
+    '''
+
+    
