@@ -1,4 +1,11 @@
-from pieces.pawn import Pawn, Rook, Knight, Bishop, Queen, King
+from pieces.piece import Pawn, Rook, Knight, Bishop, Queen, King
+
+import logging
+logging.basicConfig(
+    filename='chess_game_event.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 
 class Board:
@@ -33,6 +40,9 @@ class Board:
                 self.squares[start_row][start_col] = None
                 piece.position = end
                 self.current_turn = 'black' if self.current_turn == 'white' else 'white'
+                logging.info(f"Attempting move: {piece.__class__.__name__} from {start} to {end}")
+                logging.info(f"Current turn: {self.current_turn}")
+
 
                 return True
         return False
