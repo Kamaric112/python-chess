@@ -7,6 +7,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
+
 class Board:
     def __init__(self):
         self.squares = self.initialize_board()
@@ -41,6 +42,7 @@ class Board:
                 self.current_turn = 'black' if self.current_turn == 'white' else 'white'
                 logging.info(f"Attempting move: {piece.__class__.__name__} from {start} to {end}")
                 logging.info(f"Current turn: {self.current_turn}")
+
 
                 return True
         return False
