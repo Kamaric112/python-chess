@@ -2,7 +2,7 @@ from pieces.piece import Pawn, Rook, Knight, Bishop, Queen, King
 
 import logging
 logging.basicConfig(
-    filename='chess/chess_game_event.log',
+    filename='chess_game_event.log',
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s'
 )

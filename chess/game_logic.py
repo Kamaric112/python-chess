@@ -1,6 +1,6 @@
 import pygame
 
-from board import Board
+from chess.board import Board
 
 
 class ChessGameLogic:
