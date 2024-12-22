@@ -4,7 +4,7 @@ from chess.board import Board
 
 
 class ChessGameLogic:
-    def __init__(self,config):
+    def __init__(self, config):
         self.config = config
 
         self.board = Board()
@@ -14,8 +14,8 @@ class ChessGameLogic:
         self.user_b = config.playerB
 
         self.hover_moves = []
-        self.timer_a = config.time*60
-        self.timer_b = config.time*60
+        self.timer_a = config.time * 60
+        self.timer_b = config.time * 60
         self.last_time = pygame.time.get_ticks()
 
     def update_timer(self):
@@ -29,9 +29,9 @@ class ChessGameLogic:
             self.timer_a -= elapsed
 
         if self.timer_a <= 0:
-            return 'white'
+            return self.user_b
         elif self.timer_b <= 0:
-            return 'black'
+            return self.user_b
         else:
             return None
 
@@ -48,19 +48,12 @@ class ChessGameLogic:
 
     def select_piece(self, row, col):
         piece = self.board.squares[row][col]
-         # If a new piece of same color is clicked, switch selection to it
+        # If a new piece of same color is clicked, switch selection to it
         if piece and piece.color == self.board.current_turn:
             self.selected_piece = piece
             self.valid_moves = piece.get_valid_moves(self.board.squares)
             return True
         return False
-
-        # If same piece is selected again, deselect it
-        # if self.selected_piece and (row, col) == self.selected_piece.position:
-        #     self.selected_piece = None
-        #     self.valid_moves = []
-        #     return True
-        # return False
 
     def make_move(self, start_pos, end_pos):
         if end_pos in self.valid_moves:

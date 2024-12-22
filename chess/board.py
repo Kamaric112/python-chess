@@ -1,6 +1,7 @@
 from pieces.piece import Pawn, Rook, Knight, Bishop, Queen, King
 
 import logging
+
 logging.basicConfig(
     filename='chess_game_event.log',
     level=logging.DEBUG,
@@ -43,7 +44,6 @@ class Board:
                 logging.info(f"Attempting move: {piece.__class__.__name__} from {start} to {end}")
                 logging.info(f"Current turn: {self.current_turn}")
 
-
                 return True
         return False
 
@@ -58,7 +58,6 @@ class Board:
         return end in valid_moves
 
     def is_checkmate(self):
-        # TODO maybe improve this
         white_king_exists = False
         black_king_exists = False
 
@@ -72,7 +71,7 @@ class Board:
                         black_king_exists = True
 
         if not white_king_exists:
-            return 'Black'
+            return 'black'
         if not black_king_exists:
-            return 'White'
+            return 'white'
         return None

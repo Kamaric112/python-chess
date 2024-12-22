@@ -1,6 +1,5 @@
 import tkinter as tk
 from tkinter import filedialog
-import os
 
 
 class User:
@@ -14,9 +13,8 @@ class User:
         new_name = tk.simpledialog.askstring("Input", "Enter new name:", parent=root)
         if new_name:
             self.name = new_name
-        
+
     def change_image(self):
-        # Get new image
         file_path = filedialog.askopenfilename(
             filetypes=[("Image files", "*.png *.jpg *.jpeg *.gif *.bmp")]
         )

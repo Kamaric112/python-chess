@@ -11,9 +11,15 @@ class ChessBoard:
         self.config = config
         self.game = ChessGameLogic(config)
         self.renderer = ChessRenderer(screen, width, height)
-        self.event_handler = ChessEventHandler(self.game, self.renderer)
-        self.user_a = User(config.playerA, os.path.join('assets', 'black-bishop.png'))
-        self.user_b = User(config.playerB, os.path.join('assets', 'white-bishop.png'))
+        self.event_handler = ChessEventHandler(self.game, self.renderer, config)
+        player_a_image = config.playerA_image if hasattr(config, 'playerA_image') else os.path.join('assets',
+                                                                                                    'black-bishop.png')
+        player_b_image = config.playerB_image if hasattr(config, 'playerB_image') else os.path.join('assets',
+                                                                                                    'white-bishop.png')
+
+        self.user_a = User(config.playerA, player_a_image)
+        self.user_b = User(config.playerB, player_b_image)
+
         self.game.user_a = self.user_a
         self.game.user_b = self.user_b
 
@@ -30,7 +36,6 @@ class ChessBoard:
                 self.game.reset_game()
                 return "menu"
             self.renderer.draw_board(self.game, self.user_a, self.user_b)
-
 
 
 import logging

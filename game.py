@@ -14,7 +14,7 @@ screen = pygame.display.set_mode(res)
 width = screen.get_width()
 height = screen.get_height()
 
-config = Config() #Phuong: 
+config = Config()
 
 def main():
 
@@ -23,16 +23,11 @@ def main():
     while True:
         action = menu.run()
         if action == "start":
-            chess_board = ChessBoard(screen, width, height, config)  # Tạo mới ChessBoard với config cập nhật
+            chess_board = ChessBoard(screen, width, height, config)
             game_result = chess_board.draw()
             if game_result == "menu":
                 continue
 
-        #  TODO update menu (beautify)
-        #  TODO add member list
-        #  TODO add music
-        #  TODO add back button in chess
-        #  TODO show list of capture pieces
         pygame.display.flip()
 
 

@@ -1,21 +1,20 @@
 import pygame
 import sys
-
-from chess import renderer
-
-
 import logging
-logging.basicConfig(filename='chess/chess_game_event.log', 
-                    level=logging.DEBUG, 
+from database import Database
+
+logging.basicConfig(filename='chess/chess_game_event.log',
+                    level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 
 class ChessEventHandler:
-    def __init__(self, game, renderer):
+    def __init__(self, game, renderer, config):
         self.game = game
         self.renderer = renderer
-        
-
+        self.config = config
+        self.database = Database(config)
+        print(self.config.playerB, self.config.playerA)
 
     def handle_events(self):
         logging.info(f"Game State: {self.renderer.game_state}")
@@ -27,6 +26,7 @@ class ChessEventHandler:
                 logging.info(f"Timer Update: {time_winner}")
                 self.renderer.game_state = "victory"
                 self.renderer.show_victory_screen(f"{time_winner} (Time)")
+                self._save_match(time_winner)
                 return
 
         for event in pygame.event.get():
@@ -51,26 +51,6 @@ class ChessEventHandler:
     def _handle_mouse_click(self):
         mouse_pos = pygame.mouse.get_pos()
 
-        # Handle user A profile click
-        if self.renderer.user_a_profile_rect.collidepoint(mouse_pos):
-            self.game.user_a.change_image()
-            return
-
-        # Handle user A name click
-        if self.renderer.user_a_name_rect.collidepoint(mouse_pos):
-            self.game.user_a.change_name()
-            return
-
-        # Handle user B name click
-        if self.renderer.user_b_name_rect.collidepoint(mouse_pos):
-            self.game.user_b.change_name()
-            return
-
-        # Handle user B profile click
-        if self.renderer.user_b_profile_rect.collidepoint(mouse_pos):
-            self.game.user_b.change_image()
-            return
-
         # add back button handling
         if self.renderer.back_button_rect.collidepoint(mouse_pos):
             return "menu"
@@ -82,13 +62,15 @@ class ChessEventHandler:
             if self.game.selected_piece:
                 clicked_piece = self.game.board.squares[clicked_row][clicked_col]
                 if clicked_piece and clicked_piece.color == self.game.board.current_turn:
-                    self.game.select_piece(clicked_row, clicked_col)  
+                    self.game.select_piece(clicked_row, clicked_col)
                     return
                 if self.game.make_move(self.game.selected_piece.position, (clicked_row, clicked_col)):
                     winner = self.game.board.is_checkmate()
                     if winner:
                         self.renderer.game_state = "victory"
                         self.renderer.show_victory_screen(f"{winner} (Checkmate)")
+                        self._save_match(winner)  # Save match on checkmate
+
             else:
                 self.game.select_piece(clicked_row, clicked_col)
 
@@ -105,6 +87,12 @@ class ChessEventHandler:
     def reset(self):
         self.renderer.game_state = "playing"
 
-
-
-
+    def _save_match(self, winner):
+        if winner == "white":
+            winner_name = self.config.playerB
+        elif winner == "black":
+            winner_name = self.config.playerA
+        else:
+            winner_name = winner  # In case of time win, winner is the color
+        print(winner, self.config.playerB, self.config.playerA)
+        self.database.save_match(winner_name)
