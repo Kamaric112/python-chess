@@ -4,6 +4,14 @@ from chess.event_handler import ChessEventHandler
 from chess.game_logic import ChessGameLogic
 from chess.renderer import ChessRenderer
 from user import User
+import logging
+
+
+logging.basicConfig(
+    filename='log/chess_game_event.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
 
 
 class ChessBoard:
@@ -11,15 +19,10 @@ class ChessBoard:
         self.config = config
         self.game = ChessGameLogic(config)
         self.renderer = ChessRenderer(screen, width, height)
-        self.event_handler = ChessEventHandler(self.game, self.renderer, config)
-        player_a_image = config.playerA_image if hasattr(config, 'playerA_image') else os.path.join('assets',
-                                                                                                    'black-bishop.png')
-        player_b_image = config.playerB_image if hasattr(config, 'playerB_image') else os.path.join('assets',
-                                                                                                    'white-bishop.png')
-
-        self.user_a = User(config.playerA, player_a_image)
-        self.user_b = User(config.playerB, player_b_image)
-
+        self.event_handler = ChessEventHandler(self.game, self.renderer)
+        self.user_a = User(config.playerA, os.path.join('assets', 'black-bishop.png'))
+        self.user_b = User(config.playerB, os.path.join('assets', 'white-bishop.png'))
+        #logging.info(f"User A in chess board: {self.user_a.name}, User B: {self.user_b.name}")
         self.game.user_a = self.user_a
         self.game.user_b = self.user_b
 
@@ -29,6 +32,7 @@ class ChessBoard:
         self.event_handler.reset()
 
     def draw(self):
+        #logging.info(f"User A in chess board: {self.user_a.name}, User B: {self.user_b.name}")
         while True:
             result = self.event_handler.handle_events()
             if result == "menu":
@@ -38,10 +42,3 @@ class ChessBoard:
             self.renderer.draw_board(self.game, self.user_a, self.user_b)
 
 
-import logging
-
-logging.basicConfig(
-    filename='chess/chess_game_event.log',
-    level=logging.DEBUG,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)

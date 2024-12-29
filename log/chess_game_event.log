@@ -1,0 +1,1059 @@
+2024-12-25 17:00:15,677 - INFO - Attemping database connection
+2024-12-25 17:00:15,731 - INFO - Database connection established. Game ID: dde91e67-b91e-45f4-add3-ba5920877832
+2024-12-25 17:02:27,677 - INFO - Attemping database connection
+2024-12-25 17:02:27,760 - INFO - Database connection established. Game ID: 38e99d11-db1c-4b90-a68e-7251144352f0
+2024-12-25 17:04:27,479 - INFO - Attemping database connection
+2024-12-25 17:04:27,551 - INFO - Database connection established. Game ID: 3c407f90-965b-4b57-bd66-77fc1be49a84
+2024-12-25 17:09:21,843 - INFO - Attemping database connection
+2024-12-25 17:09:21,915 - INFO - Database connection established. Game ID: f1e176f0-45ca-4b87-9cd4-7c4ad73c73d9
+2024-12-25 17:19:22,985 - INFO - Timer Update: white
+2024-12-25 19:55:57,919 - INFO - Attemping database connection
+2024-12-25 19:55:57,969 - INFO - Database connection established. Game ID: 47b84e58-8444-4c75-b430-f5cef1a67f44
+2024-12-25 19:59:55,493 - INFO - Attemping database connection
+2024-12-25 19:59:55,529 - INFO - Database connection established. Game ID: 3971822a-5c5a-49b4-9552-a905d073d296
+2024-12-25 20:01:09,185 - INFO - Attemping database connection
+2024-12-25 20:01:09,219 - INFO - Database connection established. Game ID: d49d60eb-22cc-49b4-a4d8-8f5dd6cc2b52
+2024-12-25 20:01:26,360 - INFO - Attemping database connection
+2024-12-25 20:01:26,386 - INFO - Database connection established. Game ID: a78936b8-3c1d-4d52-b36b-02cff1854ed5
+2024-12-25 20:04:21,694 - INFO - Attemping database connection
+2024-12-25 20:04:21,731 - INFO - Database connection established. Game ID: b0285dfe-15f9-4c42-ba1a-817f5ed94111
+2024-12-25 20:11:21,317 - INFO - Attemping database connection
+2024-12-25 20:11:21,372 - INFO - Database connection established. Game ID: 43d53400-4632-413b-bc69-294649be55fd
+2024-12-25 20:18:03,668 - INFO - Attemping database connection
+2024-12-25 20:18:03,712 - INFO - Database connection established. Game ID: 01eaa62b-4833-44cc-bae6-1133657a9b77
+2024-12-25 20:18:05,967 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 20:18:08,816 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-25 20:19:18,510 - INFO - Attemping database connection
+2024-12-25 20:19:18,564 - INFO - Database connection established. Game ID: 49777f3d-008c-44bb-9a93-d29eeb1b919f
+2024-12-25 20:19:22,022 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 20:19:31,900 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 20:19:45,461 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 20:19:54,183 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 21:43:26,431 - INFO - Attemping database connection
+2024-12-25 21:43:26,511 - INFO - Database connection established. Game ID: 9c402334-8236-4782-ae97-7f5b093744a9
+2024-12-25 21:43:29,343 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 21:43:39,595 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 21:48:31,334 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 21:48:32,229 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-25 21:48:33,022 - INFO - RPS Game - Player chose: scissor, Computer chose: scissor, Result: None
+2024-12-25 21:48:33,692 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-25 21:48:34,536 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 21:48:35,015 - INFO - RPS Game - Player chose: scissor, Computer chose: rock, Result: False
+2024-12-25 21:48:56,611 - INFO - Attemping database connection
+2024-12-25 21:48:56,659 - INFO - Database connection established. Game ID: fdac8060-2bd3-4eda-8fbe-ca90b3907224
+2024-12-25 21:49:01,160 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 21:49:12,006 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 21:49:30,872 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 22:11:03,118 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 22:11:03,575 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-25 22:11:03,587 - INFO - Timer Update: black
+2024-12-25 22:11:13,104 - INFO - Attemping database connection
+2024-12-25 22:11:13,177 - INFO - Database connection established. Game ID: 140060df-edb2-4372-a679-91f3542be18c
+2024-12-25 22:11:15,743 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 22:14:05,066 - INFO - Attemping database connection
+2024-12-25 22:14:05,153 - INFO - Database connection established. Game ID: 52dc98b6-93c7-4d77-be4d-c4b6e89f95f3
+2024-12-25 22:14:07,416 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 22:14:21,727 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 22:14:31,217 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 22:14:39,254 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 22:14:46,568 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-25 23:17:00,638 - INFO - Attemping database connection
+2024-12-25 23:17:00,696 - INFO - Database connection established. Game ID: 54900275-7c72-44a9-8fc6-8269b0fee8aa
+2024-12-25 23:17:05,637 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:17:35,784 - INFO - Attemping database connection
+2024-12-25 23:17:35,840 - INFO - Database connection established. Game ID: 2ba4c713-bbd9-4b28-92e6-1c195735524e
+2024-12-25 23:17:38,023 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:17:44,459 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:17:49,911 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:17:52,551 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:17:55,439 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-25 23:18:09,975 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 23:18:18,621 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:18:23,062 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:18:29,377 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 23:18:40,844 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:18:45,196 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-25 23:18:47,166 - INFO - RPS Game - Player chose: scissor, Computer chose: scissor, Result: None
+2024-12-25 23:18:48,704 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 23:19:22,880 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:19:31,556 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:19:32,920 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-25 23:19:47,873 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:19:49,097 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-25 23:19:50,507 - INFO - RPS Game - Player chose: scissor, Computer chose: scissor, Result: None
+2024-12-25 23:19:51,760 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:19:52,860 - INFO - RPS Game - Player chose: paper, Computer chose: scissor, Result: False
+2024-12-25 23:25:16,332 - INFO - Attemping database connection
+2024-12-25 23:25:16,420 - INFO - Database connection established. Game ID: a83a49a7-549f-43da-b8ce-6e9c3d245774
+2024-12-25 23:25:19,158 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-25 23:25:29,651 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-25 23:25:31,689 - INFO - RPS Game - Player chose: scissor, Computer chose: rock, Result: False
+2024-12-25 23:25:48,642 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 23:26:01,963 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:26:03,688 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-25 23:26:30,350 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-25 23:27:04,161 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-25 23:27:05,703 - INFO - RPS Game - Player chose: paper, Computer chose: scissor, Result: False
+2024-12-25 23:48:12,941 - INFO - Attemping database connection
+2024-12-25 23:48:13,032 - INFO - Database connection established. Game ID: 52c1f299-0e36-4994-9a22-08a845feede1
+2024-12-25 23:51:14,689 - INFO - Attemping database connection
+2024-12-25 23:51:14,742 - INFO - Database connection established. Game ID: 8f68c86a-28d4-4eb2-a7a0-c8f0d1942824
+2024-12-26 00:02:26,941 - INFO - Attemping database connection
+2024-12-26 00:02:27,006 - INFO - Database connection established. Game ID: e2ae99a8-63c5-4a5e-8c7c-1219d418274e
+2024-12-26 01:38:52,028 - INFO - Attemping database connection
+2024-12-26 01:38:52,092 - INFO - Database connection established. Game ID: d7b603b9-5cd9-4e79-b473-9a71973fb9ff
+2024-12-26 01:39:34,659 - INFO - Attemping database connection
+2024-12-26 01:39:34,702 - INFO - Database connection established. Game ID: ff82d70e-330c-45b8-997c-9d207230dfc2
+2024-12-26 01:41:41,637 - INFO - Attemping database connection
+2024-12-26 01:41:41,676 - INFO - Database connection established. Game ID: 5c7bf7a3-b44e-49b7-ac77-79a973c546d2
+2024-12-26 01:42:24,453 - INFO - Attemping database connection
+2024-12-26 01:42:24,494 - INFO - Database connection established. Game ID: 06cedebd-db6c-401c-8e1a-83e10d28e987
+2024-12-26 01:43:53,505 - INFO - Attemping database connection
+2024-12-26 01:43:53,542 - INFO - Database connection established. Game ID: 8f627a2b-b2dc-4f94-be30-a195a1c6943e
+2024-12-26 01:47:42,241 - INFO - Attemping database connection
+2024-12-26 01:47:42,280 - INFO - Database connection established. Game ID: 117291fe-d7e4-406e-a244-64da21762ce4
+2024-12-26 01:49:10,896 - INFO - Attemping database connection
+2024-12-26 01:49:10,940 - INFO - Database connection established. Game ID: c33edfcb-3939-48b1-84a6-ff35b3e1ff7e
+2024-12-26 01:49:45,292 - INFO - Attemping database connection
+2024-12-26 01:49:45,318 - INFO - Database connection established. Game ID: 36e445db-0d98-4249-9e03-1a5226624bed
+2024-12-26 02:01:24,567 - INFO - Attemping database connection
+2024-12-26 02:01:24,616 - INFO - Database connection established. Game ID: 667d82f5-ac83-4a73-bb43-08e99c04d4cd
+2024-12-26 12:15:45,241 - INFO - Attemping database connection
+2024-12-26 12:15:45,292 - INFO - Database connection established. Game ID: 0b583cc3-b06d-4bf3-82f6-9dad27ab386a
+2024-12-26 12:24:32,420 - INFO - Attemping database connection
+2024-12-26 12:24:32,462 - INFO - Database connection established. Game ID: 917e10ff-f2c7-4fac-8055-dc7be425916d
+2024-12-26 12:26:01,298 - INFO - Attemping database connection
+2024-12-26 12:26:01,330 - INFO - Database connection established. Game ID: 45298bc8-6c3c-40ef-b7eb-eaac1ab75992
+2024-12-26 12:52:40,160 - INFO - Attemping database connection
+2024-12-26 12:52:40,214 - INFO - Database connection established. Game ID: 90251b73-712f-4d1b-b765-1b44b2d39e66
+2024-12-26 12:54:47,226 - INFO - Attemping database connection
+2024-12-26 12:54:47,269 - INFO - Database connection established. Game ID: 2becfa4d-d6f1-474d-9895-185699af7126
+2024-12-26 13:07:35,179 - INFO - Attemping database connection
+2024-12-26 13:07:35,226 - INFO - Database connection established. Game ID: 6a62a6d5-4e22-49f2-bb2d-4e844ba7bdfe
+2024-12-26 13:25:27,034 - INFO - Attemping database connection
+2024-12-26 13:25:27,078 - INFO - Database connection established. Game ID: 8723f63c-c4ad-491d-8f27-e29ca71baa6f
+2024-12-26 13:28:00,252 - INFO - Attemping database connection
+2024-12-26 13:28:00,312 - INFO - Database connection established. Game ID: c81896c0-5a95-4a29-8656-4a19fdfa45ff
+2024-12-26 13:30:43,530 - INFO - Attemping database connection
+2024-12-26 13:30:43,574 - INFO - Database connection established. Game ID: e1bb48d0-299f-410a-9db1-fc4cfa8fc016
+2024-12-26 13:31:10,887 - INFO - Selected option: queen
+2024-12-26 13:33:34,475 - INFO - Attemping database connection
+2024-12-26 13:33:34,528 - INFO - Database connection established. Game ID: 699c862c-073d-4092-b246-a1e51f10d6de
+2024-12-26 13:34:04,542 - INFO - Selected option: knight
+2024-12-26 13:47:12,629 - INFO - Attemping database connection
+2024-12-26 13:47:12,672 - INFO - Database connection established. Game ID: 3fb1bd04-3ab5-4aac-b385-02b58c738f32
+2024-12-26 13:47:39,545 - INFO - Selected option: bishop
+2024-12-26 13:48:49,528 - INFO - Selected option: knight
+2024-12-26 13:49:14,798 - INFO - Attemping database connection
+2024-12-26 13:49:14,845 - INFO - Database connection established. Game ID: e0eec0e3-dcbb-4c3b-a518-b9f1b15174c7
+2024-12-26 13:50:01,830 - INFO - Selected option: bishop
+2024-12-26 13:51:20,748 - INFO - Selected option: rook
+2024-12-26 14:02:55,637 - INFO - Attemping database connection
+2024-12-26 14:02:55,692 - INFO - Database connection established. Game ID: 476b1199-cc0a-4448-85e2-fa94e06a169a
+2024-12-26 14:03:21,415 - INFO - Selected option: knight
+2024-12-26 14:03:48,510 - INFO - Selected option: queen
+2024-12-26 14:04:06,486 - INFO - Selected option: queen
+2024-12-26 14:05:06,807 - INFO - Selected option: queen
+2024-12-26 14:09:20,947 - INFO - Attemping database connection
+2024-12-26 14:09:20,987 - INFO - Database connection established. Game ID: b034b681-f649-472b-b843-0dd00e98bd56
+2024-12-26 14:09:50,470 - INFO - Selected option: knight
+2024-12-26 14:10:14,610 - INFO - Selected option: queen
+2024-12-26 14:10:48,291 - INFO - Selected option: queen
+2024-12-26 14:11:56,848 - INFO - Selected option: rook
+2024-12-26 14:12:28,679 - INFO - Selected option: rook
+2024-12-26 14:12:55,925 - INFO - Selected option: queen
+2024-12-26 14:13:24,362 - INFO - Selected option: queen
+2024-12-26 14:13:58,617 - INFO - Selected option: bishop
+2024-12-26 14:14:21,184 - INFO - Selected option: knight
+2024-12-26 14:14:38,788 - INFO - Selected option: rook
+2024-12-26 14:20:01,256 - INFO - Timer Update: white
+2024-12-26 16:27:10,564 - INFO - Attemping database connection
+2024-12-26 16:27:10,627 - INFO - Database connection established. Game ID: 411dfd30-df78-4476-94a5-a0fdf6ef8c3c
+2024-12-26 16:27:36,086 - INFO - Selected option: rook
+2024-12-26 16:28:04,590 - INFO - Selected option: rook
+2024-12-26 16:29:23,713 - INFO - Attemping database connection
+2024-12-26 16:29:23,755 - INFO - Database connection established. Game ID: 7ec58f54-9901-493e-8e18-db830919b979
+2024-12-26 16:32:38,000 - INFO - Attemping database connection
+2024-12-26 16:32:38,039 - INFO - Database connection established. Game ID: 06cd1fd8-da2f-42cf-aa6c-e364a08e9945
+2024-12-26 16:33:01,855 - INFO - Selected option: knight
+2024-12-26 16:34:05,286 - INFO - Selected option: queen
+2024-12-26 16:34:33,439 - INFO - Selected option: bishop
+2024-12-26 16:41:22,182 - INFO - Attemping database connection
+2024-12-26 16:41:22,244 - INFO - Database connection established. Game ID: 2d845ba8-e9de-4141-897a-0caeceb7e5ea
+2024-12-26 16:42:01,917 - INFO - Selected option: knight
+2024-12-26 16:42:28,608 - INFO - Selected option: knight
+2024-12-26 16:51:51,734 - INFO - Timer Update: black
+2024-12-26 16:57:03,478 - INFO - Attemping database connection
+2024-12-26 16:57:03,523 - INFO - Database connection established. Game ID: 9ef35073-da5b-4149-96a3-c35498f8d1c4
+2024-12-26 16:57:33,667 - INFO - Selected option: queen
+2024-12-26 16:58:15,509 - INFO - Selected option: queen
+2024-12-26 17:01:28,889 - INFO - Attemping database connection
+2024-12-26 17:01:28,940 - INFO - Database connection established. Game ID: 67c94aba-b4c8-49e7-9caa-5d5a7e5a48f9
+2024-12-26 17:01:47,861 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:47,914 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:47,965 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,016 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,067 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,119 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,170 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,221 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,273 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,326 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,379 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,431 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,485 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,538 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,590 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,642 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,695 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,747 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,801 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,855 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,907 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:48,958 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,009 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,060 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,112 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,164 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,217 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,270 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,322 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,375 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,428 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,480 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,532 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,586 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,638 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,690 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,743 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,795 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,848 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,901 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:49,953 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,007 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,061 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,113 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,165 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,217 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,269 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,321 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,374 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,427 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,479 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,535 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,587 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,639 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,693 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,747 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,801 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,855 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,908 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:50,962 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,015 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,069 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,121 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,173 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,227 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,280 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,333 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,386 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,439 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,493 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,547 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,600 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,652 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,705 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,759 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,812 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,866 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,920 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:51,973 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,028 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,082 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,135 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,187 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,240 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,295 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,348 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,400 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,453 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,509 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,562 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,616 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,668 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,721 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,774 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,828 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,883 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,935 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:52,990 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,044 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,097 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,149 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,202 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,255 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,309 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,360 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,413 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,466 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,519 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,571 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,623 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,676 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,729 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,782 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,835 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,887 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,940 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:53,995 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,049 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,101 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,154 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,206 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,259 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,313 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,366 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,418 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,472 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,526 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,579 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,632 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,685 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,738 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,791 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,845 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,897 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:54,951 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,006 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,060 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,113 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,167 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,220 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,273 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,327 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,379 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,431 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,486 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,540 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,594 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,647 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,700 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,753 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,807 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,860 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,912 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:55,965 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,018 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,071 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,124 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,177 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,230 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,283 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,336 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,389 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,442 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,495 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,549 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,602 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,656 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,710 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,765 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,817 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,871 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,925 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:56,978 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,031 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,085 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,139 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,192 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,245 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,298 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,351 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,406 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,460 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,513 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,567 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,620 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,675 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,729 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,782 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,835 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,888 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,941 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:57,995 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,047 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,100 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,156 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,210 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,263 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,316 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,369 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,422 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,475 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,527 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,580 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,633 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,688 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,741 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,795 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,847 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,901 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:58,954 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,008 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,060 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,112 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,167 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,219 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,274 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,326 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,380 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,435 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,487 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,540 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,593 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,647 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,701 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,753 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,806 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,860 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,912 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:01:59,965 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,017 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,072 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,126 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,179 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,231 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,284 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,337 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,391 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,443 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,496 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,548 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,601 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,655 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,709 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,763 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,816 - INFO - circle_color: (128, 128, 128)
+2024-12-26 17:02:00,869 - INFO - Selected option: rook
+2024-12-26 17:02:05,398 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,448 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,499 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,550 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,601 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,653 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,706 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,758 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,810 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,862 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,914 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:05,966 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,019 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,071 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,123 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,175 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,227 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,279 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,331 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,385 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,438 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,491 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,543 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,596 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,648 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,700 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,752 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,805 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,858 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,910 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:06,962 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,015 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,068 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,120 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,173 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,227 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,280 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,333 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,386 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,439 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,492 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,545 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,598 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,650 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,705 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,757 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,809 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,862 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,915 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:07,968 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,020 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,073 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,126 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,178 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,230 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,282 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,335 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,388 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,443 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,496 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,549 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,602 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,656 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,709 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,762 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,816 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,868 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,921 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:08,976 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,029 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,081 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,134 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,189 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,242 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,295 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,349 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,402 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,457 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,509 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,562 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,615 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,668 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,720 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,774 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,826 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,879 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,932 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:09,986 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,040 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,092 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,146 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,199 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,251 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,303 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,357 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,410 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,463 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,517 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,569 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,622 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,675 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,728 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,780 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,832 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,885 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,939 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:10,992 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,046 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,098 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,151 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,205 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,257 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,311 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,363 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,416 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,470 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,524 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,577 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,630 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,683 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,738 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,791 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,844 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,898 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:11,950 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,003 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,056 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,108 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,162 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,216 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,268 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,321 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,375 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,427 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,482 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,535 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,588 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,641 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,695 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,748 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,800 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,853 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,907 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:12,960 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,013 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,066 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,120 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,173 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,228 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,282 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,335 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,389 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,442 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,496 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,549 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,602 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,655 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,708 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,761 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,813 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,867 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,920 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:13,973 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,028 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,081 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,133 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,187 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,239 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,293 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,346 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,399 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,452 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,506 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,559 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,612 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,664 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,717 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,770 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,824 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,877 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,930 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:14,982 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,036 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,089 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,142 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,197 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,250 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,305 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,357 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,409 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,462 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,517 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,570 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,625 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,677 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,730 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,785 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,838 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,893 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,945 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:15,999 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,051 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,104 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,157 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,210 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,264 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,317 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,369 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,424 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,477 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,530 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,582 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,635 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,688 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,741 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,794 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,847 - INFO - circle_color: (255, 255, 255)
+2024-12-26 17:02:16,900 - INFO - Selected option: queen
+2024-12-26 17:09:06,548 - INFO - Attemping database connection
+2024-12-26 17:09:06,592 - INFO - Database connection established. Game ID: a473706e-1d03-4964-8c6a-8384fc8ee577
+2024-12-26 17:10:05,554 - INFO - Selected option: knight
+2024-12-26 17:10:45,949 - INFO - Selected option: queen
+2024-12-26 17:11:00,004 - INFO - Attemping database connection
+2024-12-26 17:11:00,043 - INFO - Database connection established. Game ID: 45eeece1-0ea8-498e-a333-5934bc8f41d4
+2024-12-26 17:12:07,552 - INFO - Selected option: queen
+2024-12-26 17:13:09,486 - INFO - Selected option: queen
+2024-12-26 21:45:01,058 - INFO - Attemping database connection
+2024-12-26 21:45:01,111 - INFO - Database connection established. Game ID: 9f9ba5e8-a768-49df-8702-060c4de601b2
+2024-12-26 21:55:01,064 - INFO - Timer Update: black
+2024-12-26 22:09:18,947 - INFO - Attemping database connection
+2024-12-26 22:09:18,987 - INFO - Database connection established. Game ID: 450d128a-f97e-4596-b9d8-7f1dd005b6dd
+2024-12-26 22:09:21,453 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-26 22:09:43,473 - INFO - RPS Game - Player chose: paper, Computer chose: scissor, Result: False
+2024-12-26 22:09:49,616 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-26 22:09:51,402 - INFO - RPS Game - Player chose: paper, Computer chose: scissor, Result: False
+2024-12-26 22:10:02,501 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-26 22:10:10,917 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-26 22:10:12,709 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-26 22:12:00,907 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-26 22:19:49,573 - INFO - Timer Update: white
+2024-12-26 22:19:52,448 - INFO - Attemping database connection
+2024-12-26 22:19:52,511 - INFO - Database connection established. Game ID: 179b7428-6f9d-4a37-9038-f4d165c5f7da
+2024-12-26 22:20:27,985 - INFO - Selected option: queen
+2024-12-26 22:30:03,022 - INFO - Timer Update: white
+2024-12-27 14:11:39,652 - INFO - Attemping database connection
+2024-12-27 14:11:39,759 - INFO - Database connection established. Game ID: 29056209-db04-4b90-a410-81e7280c89b2
+2024-12-27 14:12:18,850 - INFO - Attemping database connection
+2024-12-27 14:12:18,909 - INFO - Database connection established. Game ID: cbccd446-e66f-47f2-b310-847b7e153c6d
+2024-12-27 14:14:05,600 - INFO - Attemping database connection
+2024-12-27 14:14:05,643 - INFO - Database connection established. Game ID: 38a4ec44-9a8b-4026-8341-75b0e875d6bc
+2024-12-27 14:14:17,950 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-27 14:17:14,884 - INFO - Attemping database connection
+2024-12-27 14:17:14,924 - INFO - Database connection established. Game ID: f2f76f34-660f-4371-9307-cbb211786ef0
+2024-12-27 14:18:43,289 - INFO - Attemping database connection
+2024-12-27 14:18:43,336 - INFO - Database connection established. Game ID: d0274a8a-9aa8-4690-af2e-6dcd113a78e2
+2024-12-27 14:22:31,312 - INFO - Attemping database connection
+2024-12-27 14:22:31,360 - INFO - Database connection established. Game ID: ab07fe2f-0524-46e9-8394-8e5cc58e506d
+2024-12-27 14:23:43,085 - INFO - Attemping database connection
+2024-12-27 14:23:43,124 - INFO - Database connection established. Game ID: 79aec5f2-92c6-47dc-b7c3-8a6a6d5a192e
+2024-12-27 14:46:20,007 - INFO - Attemping database connection
+2024-12-27 14:46:20,047 - INFO - Database connection established. Game ID: 25654325-ffe7-457e-91e4-199824dd16d6
+2024-12-27 15:09:28,293 - INFO - Attemping database connection
+2024-12-27 15:09:28,338 - INFO - Database connection established. Game ID: 0f28b410-4f97-48fe-823f-409d0491b203
+2024-12-27 15:09:58,847 - INFO - Attemping database connection
+2024-12-27 15:09:58,877 - INFO - Database connection established. Game ID: ffec08be-aa18-44ee-8cfd-a83b6f9e3fea
+2024-12-27 15:20:45,084 - INFO - Attemping database connection
+2024-12-27 15:20:45,135 - INFO - Database connection established. Game ID: 15d31d51-cb6b-48aa-95fc-31c45fe52f12
+2024-12-27 15:21:08,862 - INFO - Selected option: knight
+2024-12-27 15:21:31,805 - INFO - Attemping database connection
+2024-12-27 15:21:31,851 - INFO - Database connection established. Game ID: 5eda3b25-35ab-4a4b-bcda-939a22a18ed5
+2024-12-27 15:21:59,109 - INFO - Selected option: knight
+2024-12-27 15:23:55,159 - INFO - Attemping database connection
+2024-12-27 15:23:55,223 - INFO - Database connection established. Game ID: f989e1d6-6a85-440c-a565-fbfa89302d3a
+2024-12-27 15:24:19,929 - INFO - Selected option: rook
+2024-12-27 15:25:37,524 - INFO - RPS Game - Player chose: scissor, Computer chose: scissor, Result: None
+2024-12-27 15:25:40,380 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-27 15:25:42,570 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-27 15:27:47,080 - INFO - Attemping database connection
+2024-12-27 15:27:47,123 - INFO - Database connection established. Game ID: e0744574-ea4e-4039-8cc4-ab2c450c1b43
+2024-12-27 15:28:10,698 - INFO - Selected option: bishop
+2024-12-27 15:29:46,107 - INFO - Attemping database connection
+2024-12-27 15:29:46,138 - INFO - Database connection established. Game ID: 0033c499-0dc6-4bce-bda8-681208866f64
+2024-12-27 15:30:14,607 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-27 15:36:49,618 - INFO - Attemping database connection
+2024-12-27 15:36:49,678 - INFO - Database connection established. Game ID: b6d29048-8fc9-4ad3-a8a3-0a6d44a04598
+2024-12-27 15:37:22,914 - INFO - Attemping database connection
+2024-12-27 15:37:22,954 - INFO - Database connection established. Game ID: 4b16cf6b-e70e-462e-976e-d27c34eafb66
+2024-12-27 15:47:42,352 - INFO - Attemping database connection
+2024-12-27 15:47:42,394 - INFO - Database connection established. Game ID: f98fcf25-7b62-4910-ad0e-85976affdc32
+2024-12-27 15:49:18,388 - INFO - Attemping database connection
+2024-12-27 15:49:18,429 - INFO - Database connection established. Game ID: d50f4e3e-faf6-4e50-9619-cef02781d194
+2024-12-27 15:49:55,386 - INFO - Selected option: queen
+2024-12-27 15:50:08,782 - INFO - Attemping database connection
+2024-12-27 15:50:08,811 - INFO - Database connection established. Game ID: c95b2975-8da1-432d-9a91-fcbed493d863
+2024-12-27 15:50:36,192 - INFO - Selected option: queen
+2024-12-27 15:51:17,061 - INFO - Attemping database connection
+2024-12-27 15:51:17,105 - INFO - Database connection established. Game ID: 12e0874d-fab7-4edb-af0d-7eca63e54455
+2024-12-27 15:51:41,187 - INFO - Selected option: queen
+2024-12-27 15:51:57,955 - INFO - Selected option: bishop
+2024-12-27 15:52:22,756 - INFO - Selected option: pawn
+2024-12-27 15:53:47,711 - INFO - Attemping database connection
+2024-12-27 15:53:47,760 - INFO - Database connection established. Game ID: a83c4efc-1e7b-4477-a3db-e30debc4d4e0
+2024-12-27 15:54:21,176 - INFO - Selected option: rook
+2024-12-27 15:54:44,221 - INFO - Selected option: bishop
+2024-12-27 15:55:05,146 - INFO - Selected option: knight
+2024-12-27 16:04:59,736 - INFO - Attemping database connection
+2024-12-27 16:04:59,777 - INFO - Database connection established. Game ID: d6a3a320-b622-46aa-be53-8f76762a0698
+2024-12-27 16:05:30,754 - INFO - Selected option: rook
+2024-12-27 16:05:57,496 - INFO - Attemping database connection
+2024-12-27 16:05:57,528 - INFO - Database connection established. Game ID: db64fd2b-da7a-40c8-aae7-5b06ddda86ec
+2024-12-27 16:12:50,429 - INFO - Attemping database connection
+2024-12-27 16:12:50,481 - INFO - Database connection established. Game ID: 7b5a3f08-5dff-438c-ba72-4cf935b477ed
+2024-12-27 16:14:36,060 - INFO - Attemping database connection
+2024-12-27 16:14:36,104 - INFO - Database connection established. Game ID: ff09733c-eef4-4e91-b062-c3cbaaf5de22
+2024-12-27 16:15:27,549 - INFO - Attemping database connection
+2024-12-27 16:15:27,583 - INFO - Database connection established. Game ID: ac4e1afe-c70b-4b59-b310-ae626404a26d
+2024-12-27 16:47:12,858 - INFO - Attemping database connection
+2024-12-27 16:47:12,908 - INFO - Database connection established. Game ID: 32000cc7-cfd0-418f-94b0-391476fcfeea
+2024-12-27 16:50:22,242 - INFO - Settings updated - player_a: Player A, player_b: Player B, time: 10
+2024-12-27 16:54:36,088 - INFO - Settings updated - player_a: a, player_b: Player BB, time: 10
+2024-12-27 16:56:08,990 - INFO - Settings updated - player_a: Player AA, player_b: b, time: 10
+2024-12-27 16:56:08,991 - INFO - Settings updated - player_a: Player AA, player_b: b, time: 10
+2024-12-27 16:57:51,860 - INFO - Attemping database connection
+2024-12-27 16:57:51,905 - INFO - Database connection established. Game ID: c6354aee-61cf-4045-88e4-beabb8e9f92f
+2024-12-27 16:59:14,836 - INFO - Settings updated - player_a: Player AA, player_b: ggg, time: 10
+2024-12-27 16:59:14,836 - INFO - Settings updated - player_a: Player AA, player_b: ggg, time: 10
+2024-12-27 17:04:10,834 - INFO - Settings updated - player_a: Player AA, player_b: dddd, time: 10
+2024-12-27 17:04:10,834 - INFO - Settings updated - player_a: Player AA, player_b: dddd, time: 10
+2024-12-27 17:12:41,252 - INFO - Settings updated - player_a: Player AA, player_b: ss, time: 10
+2024-12-27 17:12:41,253 - INFO - Settings updated - player_a: Player AA, player_b: ss, time: 10
+2024-12-27 17:14:01,408 - INFO - Settings updated - player_a: Player AA, player_b: sss, time: 10
+2024-12-27 17:14:01,408 - INFO - Settings updated - player_a: Player AA, player_b: sss, time: 10
+2024-12-27 17:16:21,339 - INFO - Settings updated - player_a: ccc, player_b: s, time: 10
+2024-12-27 17:16:21,340 - INFO - Settings updated - player_a: ccc, player_b: s, time: 10
+2024-12-27 17:19:41,186 - INFO - Settings updated - player_a: Player AA, player_b: sss, time: 10
+2024-12-27 17:19:41,186 - INFO - Settings updated - player_a: Player AA, player_b: sss, time: 10
+2024-12-27 17:20:15,086 - INFO - Attemping database connection
+2024-12-27 17:20:15,149 - INFO - Database connection established. Game ID: 24d5f997-05e3-42b1-a9fe-870d3983987e
+2024-12-27 17:20:15,224 - INFO - User A in chess board: , User B: sss
+2024-12-27 17:30:18,444 - INFO - Timer Update: white
+2024-12-27 17:31:43,615 - INFO - Attemping database connection
+2024-12-27 17:31:43,665 - INFO - Database connection established. Game ID: cac37a30-a3e6-40cd-8045-eff937e750ea
+2024-12-27 17:31:43,735 - INFO - User A in chess board: BLACK, User B: WHITE
+2024-12-27 17:31:57,279 - INFO - Settings updated - player_a: h, player_b: Player B, time: 10
+2024-12-27 17:31:58,452 - INFO - Attemping database connection
+2024-12-27 17:31:58,488 - INFO - Database connection established. Game ID: 896b1396-9bd0-43e8-9692-323df29beb9c
+2024-12-27 17:31:58,531 - INFO - User A in chess board: h, User B: Player B
+2024-12-27 17:32:49,932 - INFO - Settings updated - player_a: Player Blk, player_b: ggg, time: 10
+2024-12-27 17:32:52,740 - INFO - Attemping database connection
+2024-12-27 17:32:52,799 - INFO - Database connection established. Game ID: 171da98e-54f9-45fe-a8a6-f1da1a51e347
+2024-12-27 17:32:52,844 - INFO - User A in chess board: Player Blk, User B: ggg
+2024-12-27 17:33:35,780 - INFO - Selected option: queen
+2024-12-27 18:53:37,450 - INFO - Attemping database connection
+2024-12-27 18:53:37,493 - INFO - Database connection established. Game ID: 8371c24d-fd3e-4529-866e-d9e89252f540
+2024-12-27 18:53:37,535 - INFO - User A in chess board: BLACK, User B: WHITE
+2024-12-27 18:57:50,185 - INFO - Attemping database connection
+2024-12-27 18:57:50,221 - INFO - Database connection established. Game ID: 449e7abd-9754-4464-a7f1-986e2fbc2d59
+2024-12-27 18:57:50,265 - INFO - User A in chess board: BLACK, User B: WHITE
+2024-12-27 19:07:50,186 - INFO - Timer Update: black
+2024-12-27 19:26:35,438 - INFO - Attemping database connection
+2024-12-27 19:26:35,487 - INFO - Database connection established. Game ID: d556ab11-95f6-441c-9790-9074cd4b2f52
+2024-12-27 19:26:35,538 - INFO - User A in chess board: BLACK, User B: WHITE
+2024-12-27 19:36:35,439 - INFO - Timer Update: black
+2024-12-28 17:48:00,070 - INFO - Attemping database connection
+2024-12-28 17:48:00,189 - INFO - Database connection established. Game ID: 4bacf00e-ccb6-432a-a549-d7f1b198f261
+2024-12-28 17:48:45,435 - INFO - Selected option: pawn
+2024-12-28 17:48:57,172 - INFO - Selected option: bishop
+2024-12-28 17:49:46,238 - INFO - Attemping database connection
+2024-12-28 17:49:46,289 - INFO - Database connection established. Game ID: 74f38f2a-5402-409d-9373-5b9fb243e90c
+2024-12-28 17:49:54,043 - INFO - Attemping database connection
+2024-12-28 17:49:54,100 - INFO - Database connection established. Game ID: 43581f22-3e75-4fcb-bbd8-dc3bd497f706
+2024-12-28 17:50:17,432 - INFO - Selected option: queen
+2024-12-28 17:51:08,357 - INFO - Selected option: bishop
+2024-12-28 18:09:13,671 - INFO - Attemping database connection
+2024-12-28 18:09:13,719 - INFO - Database connection established. Game ID: db4e6944-6834-445a-b6e7-1defc64eabd1
+2024-12-28 20:00:52,365 - INFO - Attemping database connection
+2024-12-28 20:00:52,401 - INFO - Database connection established. Game ID: 48fa992a-ce67-4eeb-956a-29aba468a435
+2024-12-28 20:06:32,249 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-28 20:06:37,596 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-28 20:06:38,751 - INFO - RPS Game - Player chose: scissor, Computer chose: rock, Result: False
+2024-12-28 20:12:38,674 - INFO - Selected option: pawn
+2024-12-28 20:12:50,174 - INFO - Selected option: bishop
+2024-12-28 20:14:45,190 - INFO - Timer Update: white
+2024-12-28 20:14:58,447 - INFO - Attemping database connection
+2024-12-28 20:14:58,487 - INFO - Database connection established. Game ID: 866c41f1-9326-440e-ab5c-1dd69f11d134
+2024-12-28 20:15:32,889 - INFO - Selected option: queen
+2024-12-28 20:15:40,556 - INFO - Attemping database connection
+2024-12-28 20:15:40,596 - INFO - Database connection established. Game ID: 6495ecf1-f37f-4941-871d-844b66f3100e
+2024-12-28 20:16:04,215 - INFO - Selected option: queen
+2024-12-28 20:16:08,464 - INFO - Attemping database connection
+2024-12-28 20:16:08,495 - INFO - Database connection established. Game ID: 7f497f65-82b4-4595-895f-c56438d7961f
+2024-12-28 20:16:36,069 - INFO - Selected option: knight
+2024-12-28 20:16:54,062 - INFO - Attemping database connection
+2024-12-28 20:16:54,116 - INFO - Database connection established. Game ID: b030dd70-1fdd-443e-921f-f2cfa731708d
+2024-12-28 20:17:23,157 - INFO - Selected option: bishop
+2024-12-28 20:27:00,449 - INFO - Timer Update: white
+2024-12-28 20:40:23,368 - INFO - Attemping database connection
+2024-12-28 20:40:23,424 - INFO - Database connection established. Game ID: 3430df68-e5a5-475e-a436-b7eab332e863
+2024-12-28 20:40:24,816 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:40:25,732 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:40:26,789 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:40:30,052 - INFO - Attemping database connection
+2024-12-28 20:40:30,086 - INFO - Database connection established. Game ID: 3b8ed09c-a7eb-499a-a662-d95de822c107
+2024-12-28 20:40:31,410 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:40:32,304 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:40:33,339 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:30,896 - INFO - Attemping database connection
+2024-12-28 20:43:30,936 - INFO - Database connection established. Game ID: 4c679412-82a7-4169-86d2-fbcdb1b67efd
+2024-12-28 20:43:32,012 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:33,021 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:33,883 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:37,376 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:40,682 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:50,045 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:51,669 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:53,286 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:54,467 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:58,150 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:43:59,336 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:44:05,987 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:44:07,327 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:44:19,703 - INFO - Selected option: knight
+2024-12-28 20:44:26,877 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:44:36,838 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:44:41,322 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:44:43,953 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:45:04,457 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:45:06,187 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:45:12,111 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:45:13,548 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:45:20,362 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:45:45,732 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:47:46,696 - INFO - Attemping database connection
+2024-12-28 20:47:46,735 - INFO - Database connection established. Game ID: c6adea0d-284d-4057-9bf8-15d9286ae96d
+2024-12-28 20:47:48,355 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:47:49,330 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:47:54,677 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:47:55,750 - ERROR - Failed to save move: Not all parameters were used in the SQL statement
+2024-12-28 20:52:14,899 - INFO - Attemping database connection
+2024-12-28 20:52:14,954 - INFO - Database connection established. Game ID: 51b87edc-25da-461e-b493-714d138d1867
+2024-12-28 20:52:19,325 - INFO - Captured piece: Pawn black
+2024-12-28 20:54:38,705 - INFO - Attemping database connection
+2024-12-28 20:54:38,762 - INFO - Database connection established. Game ID: 72932ec5-d6f8-4395-9fa6-69c3212caa42
+2024-12-28 20:54:43,007 - INFO - Captured piece: Pawn black
+2024-12-28 21:04:41,864 - INFO - Timer Update: white
+2024-12-28 21:16:48,450 - INFO - Attemping database connection
+2024-12-28 21:16:48,505 - INFO - Database connection established. Game ID: fe9ffe19-ebfb-481f-8e7e-17bae28f1f11
+2024-12-28 21:44:54,698 - INFO - Attemping database connection
+2024-12-28 21:44:54,743 - INFO - Database connection established. Game ID: 48b42df7-37c2-4d21-9443-32824fea4577
+2024-12-28 21:46:05,137 - INFO - Attemping database connection
+2024-12-28 21:46:05,180 - INFO - Database connection established. Game ID: b6ebacad-88c9-4968-81de-22fcbe877058
+2024-12-28 21:46:26,957 - INFO - Attemping database connection
+2024-12-28 21:46:27,003 - INFO - Database connection established. Game ID: c21cf118-d5fc-44c6-b754-591d604a08bc
+2024-12-28 21:47:29,914 - INFO - Attemping database connection
+2024-12-28 21:47:29,955 - INFO - Database connection established. Game ID: 076e3b95-75cd-4823-ab2d-9fbb036ff82c
+2024-12-28 21:50:04,913 - INFO - Attemping database connection
+2024-12-28 21:50:04,974 - INFO - Database connection established. Game ID: 09614885-b640-479f-9efe-96514190d95d
+2024-12-28 21:50:25,675 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:26,558 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:28,111 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:31,255 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:32,776 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:33,836 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:36,852 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:38,060 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:38,949 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:40,118 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:41,032 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:42,043 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:43,498 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:50:46,430 - ERROR - Failed to save move: Unread result found
+2024-12-28 21:54:50,746 - INFO - Attemping database connection
+2024-12-28 21:54:50,790 - INFO - Database connection established. Game ID: 542ecbd7-293a-49e0-8136-d84c6c63cb1d
+2024-12-28 21:55:18,056 - INFO - Selected option: bishop
+2024-12-28 21:56:06,907 - INFO - Attemping database connection
+2024-12-28 21:56:06,959 - INFO - Database connection established. Game ID: 63a80842-7fd4-492d-8ae5-b65de9870521
+2024-12-28 21:57:23,694 - INFO - Attemping database connection
+2024-12-28 21:57:23,747 - INFO - Database connection established. Game ID: d326c35b-9c3a-4f33-9bcd-7740fbfd8930
+2024-12-28 22:07:33,256 - INFO - Timer Update: white
+2024-12-28 22:40:34,500 - INFO - Attemping database connection
+2024-12-28 22:40:34,539 - INFO - Database connection established. Game ID: 3ec924d2-532a-4097-b1e6-33badbaeb298
+2024-12-28 22:41:27,646 - INFO - Attemping database connection
+2024-12-28 22:41:27,699 - INFO - Database connection established. Game ID: ebd612f7-a199-43fe-b570-a96d1859f177
+2024-12-28 22:43:55,482 - INFO - Attemping database connection
+2024-12-28 22:43:55,520 - INFO - Database connection established. Game ID: 2a134e2a-20ac-4c56-8369-0950adf7f3e2
+2024-12-28 22:51:39,954 - INFO - Attemping database connection
+2024-12-28 22:51:40,004 - INFO - Database connection established. Game ID: 01cb46bc-1341-41d6-bd1e-b42b04c0eec2
+2024-12-28 22:55:43,133 - INFO - Attemping database connection
+2024-12-28 22:55:43,176 - INFO - Database connection established. Game ID: be48a6ac-9c72-4cbc-9f6b-894baaa33242
+2024-12-28 22:55:53,644 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:55:55,197 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:55:56,925 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:55:58,267 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:55:59,637 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:56:00,981 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:56:02,136 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:56:07,886 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 22:56:38,002 - ERROR - Failed to save move: Cursor is not connected
+2024-12-28 23:01:07,976 - INFO - Attemping database connection
+2024-12-28 23:01:08,017 - INFO - Database connection established. Game ID: a61e42b9-f641-416e-85ad-6e3cc18fa54e
+2024-12-28 23:44:28,519 - INFO - Attemping database connection
+2024-12-28 23:44:28,553 - INFO - Database connection established. Game ID: 66f9d70f-f135-4771-bd26-58fd19e44a17
+2024-12-28 23:45:14,396 - INFO - Selected option: bishop
+2024-12-28 23:47:31,631 - INFO - Attemping database connection
+2024-12-28 23:47:31,661 - INFO - Database connection established. Game ID: 52a36fab-2f87-4b7e-9464-8b931fa64090
+2024-12-28 23:47:57,486 - INFO - Selected option: knight
+2024-12-28 23:48:07,778 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-28 23:49:44,498 - INFO - Attemping database connection
+2024-12-28 23:49:44,539 - INFO - Database connection established. Game ID: 4600a415-b832-4f5e-b6e0-73e12f734c3f
+2024-12-28 23:50:08,267 - INFO - Selected option: pawn
+2024-12-28 23:50:19,815 - INFO - Selected option: bishop
+2024-12-28 23:51:03,366 - INFO - Attemping database connection
+2024-12-28 23:51:03,406 - INFO - Database connection established. Game ID: 0ddfbef9-04c6-45d5-9ed2-e7e27e2da98d
+2024-12-28 23:51:24,466 - INFO - Selected option: bishop
+2024-12-28 23:52:46,158 - INFO - Selected option: queen
+2024-12-28 23:53:25,154 - INFO - Selected option: bishop
+2024-12-28 23:53:49,017 - INFO - Attemping database connection
+2024-12-28 23:53:49,066 - INFO - Database connection established. Game ID: 8dd8bb30-1eb1-45bc-a992-c47f670c7cb5
+2024-12-28 23:54:10,114 - INFO - Selected option: queen
+2024-12-29 10:30:26,276 - INFO - Attemping database connection
+2024-12-29 10:30:26,331 - INFO - Database connection established. Game ID: 2b0aefc4-3d8f-4e16-aacf-4fcdc2383086
+2024-12-29 10:30:50,577 - INFO - Selected option: queen
+2024-12-29 10:40:33,883 - INFO - Timer Update: white
+2024-12-29 11:07:44,351 - INFO - Attemping database connection
+2024-12-29 11:07:44,413 - INFO - Database connection established. Game ID: 4a6ad266-5376-4166-a7ea-39eb70a88ae5
+2024-12-29 11:08:08,405 - INFO - Selected option: queen
+2024-12-29 11:11:25,309 - INFO - Attemping database connection
+2024-12-29 11:11:25,343 - INFO - Database connection established. Game ID: f82fc7d1-63ba-4c62-a97f-e80a34ed92a7
+2024-12-29 11:11:47,749 - INFO - Selected option: queen
+2024-12-29 11:18:11,462 - INFO - Attemping database connection
+2024-12-29 11:18:11,501 - INFO - Database connection established. Game ID: 78dfdc91-9140-4ea3-bf20-017ef22c2980
+2024-12-29 11:18:35,040 - INFO - Selected option: knight
+2024-12-29 11:45:34,603 - INFO - Attemping database connection
+2024-12-29 11:45:34,641 - INFO - Database connection established. Game ID: 06cbe5a2-2ae2-4991-959d-770e26ef30bf
+2024-12-29 11:45:59,152 - INFO - Selected option: queen
+2024-12-29 11:47:02,318 - INFO - Selected option: knight
+2024-12-29 11:49:00,097 - INFO - Attemping database connection
+2024-12-29 11:49:00,147 - INFO - Database connection established. Game ID: 7f2807c5-2d9a-471c-ba37-6169bfdd4968
+2024-12-29 11:49:22,517 - INFO - RPS Game - Player chose: rock, Computer chose: scissor, Result: True
+2024-12-29 12:03:25,707 - INFO - Attemping database connection
+2024-12-29 12:03:25,752 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:09:45,570 - INFO - Attemping database connection
+2024-12-29 12:09:45,612 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:09:45,612 - WARNING - Game will run without move history storage
+2024-12-29 12:09:55,847 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'cursor'
+2024-12-29 12:09:57,005 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'cursor'
+2024-12-29 12:10:54,409 - INFO - Attemping database connection
+2024-12-29 12:10:54,452 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:10:54,452 - WARNING - Game will run without move history storage
+2024-12-29 12:10:55,806 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'cursor'
+2024-12-29 12:10:56,760 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'cursor'
+2024-12-29 12:10:57,724 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'cursor'
+2024-12-29 12:19:39,136 - INFO - Attemping database connection
+2024-12-29 12:19:39,174 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:19:39,174 - WARNING - Game will run without move history storage
+2024-12-29 12:19:40,418 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'conn'
+2024-12-29 12:19:41,354 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'conn'
+2024-12-29 12:19:47,114 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'conn'
+2024-12-29 12:19:48,824 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'conn'
+2024-12-29 12:23:36,855 - INFO - Attemping database connection
+2024-12-29 12:23:36,906 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:23:36,906 - WARNING - Game will run without move history storage
+2024-12-29 12:23:38,570 - ERROR - Failed to save move: 'ChessDatabase' object has no attribute 'conn'
+2024-12-29 12:25:49,454 - INFO - Attemping database connection
+2024-12-29 12:25:49,496 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:25:49,496 - WARNING - Game will run without move history storage
+2024-12-29 12:26:19,506 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-29 12:26:21,065 - INFO - RPS Game - Player chose: rock, Computer chose: paper, Result: False
+2024-12-29 12:26:30,614 - INFO - RPS Game - Player chose: scissor, Computer chose: rock, Result: False
+2024-12-29 12:26:44,895 - INFO - Selected option: knight
+2024-12-29 12:27:29,042 - INFO - Selected option: queen
+2024-12-29 12:28:09,801 - INFO - Attemping database connection
+2024-12-29 12:28:09,848 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:28:09,848 - WARNING - Game will run without move history storage
+2024-12-29 12:28:31,682 - INFO - Selected option: queen
+2024-12-29 12:31:48,904 - INFO - Attemping database connection
+2024-12-29 12:31:48,959 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:31:48,959 - WARNING - Game will run without move history storage
+2024-12-29 12:32:32,027 - INFO - Selected option: bishop
+2024-12-29 12:32:45,410 - INFO - RPS Game - Player chose: paper, Computer chose: rock, Result: True
+2024-12-29 12:33:23,063 - INFO - Selected option: bishop
+2024-12-29 12:34:05,872 - INFO - Selected option: queen
+2024-12-29 12:35:36,039 - INFO - Selected option: knight
+2024-12-29 12:35:46,114 - INFO - Attemping database connection
+2024-12-29 12:35:46,184 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:35:46,184 - WARNING - Game will run without move history storage
+2024-12-29 12:36:09,480 - INFO - Selected option: rook
+2024-12-29 12:36:48,822 - INFO - RPS Game - Player chose: paper, Computer chose: paper, Result: None
+2024-12-29 12:36:50,337 - INFO - RPS Game - Player chose: rock, Computer chose: rock, Result: None
+2024-12-29 12:36:52,181 - INFO - RPS Game - Player chose: scissor, Computer chose: paper, Result: True
+2024-12-29 12:37:25,135 - INFO - Selected option: bishop
+2024-12-29 12:38:38,521 - INFO - Selected option: queen
+2024-12-29 12:39:00,963 - INFO - Attemping database connection
+2024-12-29 12:39:01,007 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:39:01,007 - WARNING - Game will run without move history storage
+2024-12-29 12:39:22,786 - INFO - Selected option: queen
+2024-12-29 12:54:18,443 - INFO - Attemping database connection
+2024-12-29 12:54:18,487 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:54:18,487 - WARNING - Game will run without move history storage
+2024-12-29 12:54:40,899 - INFO - Selected option: knight
+2024-12-29 12:54:51,348 - INFO - RPS Game - Player chose: paper, Computer chose: scissor, Result: False
+2024-12-29 12:55:22,668 - INFO - Selected option: rook
+2024-12-29 12:56:19,751 - INFO - Selected option: knight
+2024-12-29 12:56:29,598 - INFO - Attemping database connection
+2024-12-29 12:56:29,638 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 12:56:29,638 - WARNING - Game will run without move history storage
+2024-12-29 12:56:54,352 - INFO - Selected option: rook
+2024-12-29 12:59:08,307 - INFO - Attemping database connection
+2024-12-29 12:59:08,351 - INFO - Database connection established. Game ID: 1b9026a7-76c8-4301-b57e-4745967d10df
+2024-12-29 12:59:29,830 - INFO - Selected option: queen
+2024-12-29 13:03:46,346 - INFO - Attemping database connection
+2024-12-29 13:03:46,399 - INFO - Database connection established. Game ID: 68209651-89d5-492f-b0cc-a0b48573d6bf
+2024-12-29 13:04:14,984 - INFO - Selected option: knight
+2024-12-29 13:04:38,427 - INFO - Selected option: rook
+2024-12-29 13:04:52,683 - INFO - Attemping database connection
+2024-12-29 13:04:52,737 - INFO - Database connection established. Game ID: db852053-5758-45a6-9309-9d7786ae82a6
+2024-12-29 13:05:14,791 - INFO - Selected option: queen
+2024-12-29 13:05:41,682 - INFO - Selected option: rook
+2024-12-29 13:09:00,750 - INFO - Attemping database connection
+2024-12-29 13:09:00,816 - ERROR - Database connection error: 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+2024-12-29 13:09:00,816 - WARNING - Game will run without move history storage
+2024-12-29 13:19:02,184 - INFO - Timer Update: black
